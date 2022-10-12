@@ -1,0 +1,23 @@
+{
+  "name": "vrsovice",
+  "version": "1.0.0",
+  "description": "This is website on city part Vršovice as my project in STP (Student's project).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T44T00S/vrsovice.git"
+  },
+  "keywords": [],
+  "author": "Petr Martínek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/T44T00S/vrsovice/issues"
+  },
+  "homepage": "https://github.com/T44T00S/vrsovice#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0"
+  }
+}
