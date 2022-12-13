@@ -73,4 +73,9 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+.app {
+  width: 100vw;
+  height: 300vh;
+  background-color: red;
 }/*# sourceMappingURL=style.css.map */
