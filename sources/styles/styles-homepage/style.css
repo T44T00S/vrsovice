@@ -77,11 +77,20 @@ select {
 .app {
   width: 100vw;
   height: 300vh;
+  max-width: 100%;
+  overflow-x: hidden;
   background-color: red;
 }
 
 .header {
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: black;
+}
+.header .header-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  background: purple;
 }/*# sourceMappingURL=style.css.map */
