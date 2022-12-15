@@ -79,7 +79,6 @@ select {
   height: 300vh;
   max-width: 100%;
   overflow-x: hidden;
-  background-color: red;
 }
 
 .header {
@@ -92,5 +91,22 @@ select {
   height: 100%;
   display: flex;
   margin: auto;
-  background: purple;
+  background: green;
+}
+
+.title {
+  width: 100%;
+  height: 40rem;
+  background: brown;
+}
+.title .title-container {
+  width: 30%;
+  height: 70%;
+  background: black;
+}
+
+.hero {
+  width: 100%;
+  height: 35rem;
+  background: green;
 }/*# sourceMappingURL=style.css.map */
