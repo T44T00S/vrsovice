@@ -83,7 +83,7 @@ select {
 
 .header {
   width: 100%;
-  height: 80px;
+  height: 5rem;
   background-color: black;
 }
 .header .header-container {
@@ -98,6 +98,7 @@ select {
   width: 100%;
   height: 40rem;
   background: brown;
+  margin-bottom: 4rem;
 }
 .title .title-container {
   width: 30%;
@@ -109,4 +110,22 @@ select {
   width: 100%;
   height: 35rem;
   background: green;
+  margin-bottom: 4rem;
+}
+.hero .hero-container {
+  width: 85%;
+  height: 100%;
+  background: black;
+}
+
+.social {
+  width: 100%;
+  height: 10rem;
+  background: green;
+}
+.social .social-container {
+  width: 80%;
+  height: 100%;
+  background: brown;
+  margin: auto;
 }/*# sourceMappingURL=style.css.map */
