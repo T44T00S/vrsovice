@@ -79,4 +79,65 @@ select {
   height: 300vh;
   max-width: 100%;
   overflow: visible;
+}
+
+.header {
+  width: 100%;
+  height: 5rem;
+  background-color: black;
+}
+.header .header-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  background: green;
+}
+
+.first-section {
+  width: 100%;
+  height: 40rem;
+  background: brown;
+  margin-bottom: 4rem;
+}
+.first-section .first-container {
+  width: 80%;
+  height: 90%;
+  background: black;
+  display: flex;
+  margin: auto;
+}
+
+.second-section {
+  width: 100%;
+  height: 40rem;
+  background: brown;
+  margin-bottom: 4rem;
+}
+.second-section .second-container {
+  width: 80%;
+  height: 90%;
+  background: black;
+  display: flex;
+  margin: auto;
+}
+
+.third-section {
+  width: 100%;
+  height: 40rem;
+  background: brown;
+  margin-bottom: 4rem;
+}
+.third-section .third-container {
+  width: 80%;
+  height: 90%;
+  background: black;
+  display: flex;
+  margin: auto;
+}
+
+.footer {
+  width: 100%;
+  height: 10rem;
+  background: green;
 }/*# sourceMappingURL=style.css.map */
