@@ -78,7 +78,7 @@ select {
   width: 100vw;
   height: 300vh;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow: visible;
 }
 
 .header {
@@ -135,4 +135,10 @@ select {
   width: 100%;
   height: 40rem;
   background: brown;
+}
+
+.footer {
+  width: 100%;
+  height: 10rem;
+  background: green;
 }/*# sourceMappingURL=style.css.map */

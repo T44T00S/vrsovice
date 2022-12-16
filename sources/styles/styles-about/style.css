@@ -78,5 +78,5 @@ select {
   width: 100vw;
   height: 300vh;
   max-width: 100%;
-  overflow-x: hidden;
+  overflow: visible;
 }/*# sourceMappingURL=style.css.map */
