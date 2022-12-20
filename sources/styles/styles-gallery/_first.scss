@@ -3,11 +3,14 @@
     height: 40rem;
     background: brown;
     margin-bottom: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     .first-container {
         width: 80%;
-        height: 90%;
+        height: 87%;
         background: black;
         display: flex;
-        margin: auto;
+        // margin: auto;
     }
 }
