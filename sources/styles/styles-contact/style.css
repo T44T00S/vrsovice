@@ -121,6 +121,12 @@ select {
   background: green;
 }
 
+@media only screen and (max-width: 391px) {
+  .social {
+    width: 100%;
+    height: 24rem;
+  }
+}
 .personal {
   width: 100%;
   height: 50rem;
@@ -135,6 +141,12 @@ select {
   background: brown;
 }
 
+@media only screen and (max-width: 391px) {
+  .personal {
+    width: 100%;
+    height: 24rem;
+  }
+}
 .footer {
   width: 100%;
   height: 10rem;
