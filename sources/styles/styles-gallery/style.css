@@ -94,6 +94,19 @@ select {
   background: green;
 }
 
+@media only screen and (max-width: 391px) {
+  .header {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+  }
+  .header .header-container {
+    width: 85%;
+    height: 70%;
+    background: green;
+  }
+}
 .first-section {
   width: 100%;
   height: 40rem;
