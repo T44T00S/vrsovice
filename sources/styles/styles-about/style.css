@@ -105,6 +105,36 @@ select {
   width: 52%;
   height: 82%;
   background: black;
+  margin-left: 9.5rem;
+}
+
+.second-section {
+  width: 100%;
+  height: 40rem;
+  background: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.second-section .second-container {
+  width: 52%;
+  height: 82%;
+  background: green;
+  margin-right: 9.5rem;
+}
+
+.third-section {
+  width: 100%;
+  height: 40rem;
+  background: brown;
+  display: flex;
+  align-items: center;
+}
+.third-section .third-container {
+  width: 52%;
+  height: 82%;
+  background: black;
+  margin-left: 9.5rem;
 }
 
 .footer {
