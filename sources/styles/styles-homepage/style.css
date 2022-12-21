@@ -119,6 +119,21 @@ select {
   background: black;
 }
 
+@media only screen and (max-width: 391px) {
+  .title {
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .title .title-container {
+    width: 60%;
+    height: 60%;
+    background: green;
+  }
+}
 .hero {
   width: 100%;
   height: 35rem;
@@ -131,6 +146,21 @@ select {
   background: black;
 }
 
+@media only screen and (max-width: 391px) {
+  .hero {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .hero .hero-container {
+    width: 85%;
+    height: 80%;
+    background: black;
+  }
+}
 .social {
   width: 100%;
   height: 10rem;
@@ -144,14 +174,42 @@ select {
   margin: auto;
 }
 
+@media only screen and (max-width: 391px) {
+  .social {
+    width: 100%;
+    height: 6rem;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  .social .social-container {
+    width: 85%;
+    height: 60%;
+  }
+}
 .content {
   width: 100%;
   height: 40rem;
   background: brown;
 }
 
+@media only screen and (max-width: 391px) {
+  .content {
+    display: none;
+  }
+}
 .footer {
   width: 100%;
   height: 10rem;
   background: green;
+}
+
+@media only screen and (max-width: 391px) {
+  .footer {
+    width: 100%;
+    height: 5rem;
+    background: green;
+  }
 }/*# sourceMappingURL=style.css.map */
