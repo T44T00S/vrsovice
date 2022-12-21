@@ -76,7 +76,7 @@ select {
 }
 .app {
   width: 100vw;
-  height: 300vh;
+  height: 100vh;
   max-width: 100%;
   overflow: visible;
 }

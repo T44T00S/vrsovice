@@ -76,7 +76,36 @@ select {
 }
 .app {
   width: 100vw;
-  height: 300vh;
+  height: 100vh;
   max-width: 100%;
   overflow: visible;
+}
+
+.header {
+  width: 100%;
+  height: 5rem;
+  background-color: black;
+}
+.header .header-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  background: green;
+}
+
+.social {
+  width: 100%;
+  height: 50rem;
+  background: brown;
+}
+.personal {
+  width: 100%;
+  height: 50rem;
+  background: black;
+}
+.footer {
+  width: 100%;
+  height: 10rem;
+  background: green;
 }/*# sourceMappingURL=style.css.map */
