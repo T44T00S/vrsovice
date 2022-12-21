@@ -3,3 +3,10 @@
     height: 10rem;
     background: green;
 }
+@media only screen and (max-width: 391px){
+    .footer {
+        width: 100%;
+        height: 5rem;
+        background: green;
+    }
+}

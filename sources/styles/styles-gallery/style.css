@@ -123,6 +123,20 @@ select {
   display: flex;
 }
 
+@media only screen and (max-width: 391px) {
+  .first-section {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .first-section .first-container {
+    width: 90%;
+    height: 90%;
+  }
+}
 .second-section {
   width: 100%;
   height: 40rem;
@@ -139,6 +153,21 @@ select {
   display: flex;
 }
 
+@media only screen and (max-width: 391px) {
+  .second-section {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+    background: green;
+  }
+  .second-section .second-container {
+    width: 90%;
+    height: 90%;
+  }
+}
 .third-section {
   width: 100%;
   height: 40rem;
@@ -154,8 +183,30 @@ select {
   display: flex;
 }
 
+@media only screen and (max-width: 391px) {
+  .third-section {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .third-section .third-container {
+    width: 90%;
+    height: 90%;
+  }
+}
 .footer {
   width: 100%;
   height: 10rem;
   background: green;
+}
+
+@media only screen and (max-width: 391px) {
+  .footer {
+    width: 100%;
+    height: 5rem;
+    background: green;
+  }
 }/*# sourceMappingURL=style.css.map */
