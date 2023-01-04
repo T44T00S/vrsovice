@@ -91,17 +91,18 @@ select {
   height: 100%;
   display: flex;
   margin: auto;
-  background: green;
+  background: #3e5a1d;
   justify-content: flex-end;
 }
 .header .header-container .homepage-button {
   height: 100%;
   width: 10%;
-  background: brown;
+  background: #3e5a1d;
   border: 0;
+  font-weight: bold;
 }
 .header .header-container .homepage-button:hover {
-  background-color: #7f1d1d;
+  background: #294805;
   cursor: pointer;
 }
 .header .header-container .gallery-button {
@@ -125,7 +126,7 @@ select {
 .title {
   width: 100%;
   height: 40rem;
-  background: brown;
+  background: #5B2202;
   margin-bottom: 4rem;
 }
 .title .title-container {
