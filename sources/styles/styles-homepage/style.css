@@ -92,6 +92,21 @@ select {
   display: flex;
   margin: auto;
   background: green;
+  justify-content: flex-end;
+}
+.header .header-container .homepage-button {
+  height: 100%;
+  width: 10%;
+  background: brown;
+  border: 0;
+}
+.header .header-container .homepage-button:hover {
+  background-color: #7f1d1d;
+  cursor: pointer;
+}
+.header .header-container .gallery-button {
+  height: 100%;
+  width: 10%;
 }
 
 @media only screen and (max-width: 391px) {

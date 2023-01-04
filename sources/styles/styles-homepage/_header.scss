@@ -8,6 +8,21 @@
         display: flex;
         margin: auto;
         background: green;
+        justify-content: flex-end;
+        .homepage-button {
+            height: 100%;
+            width: 10%;
+            background: brown;
+            border: 0;
+        }
+        .homepage-button:hover {
+            background-color: #7f1d1d;
+            cursor:pointer;
+        }
+        .gallery-button {
+            height: 100%;
+            width: 10%;
+        }
     }
 }
 @media only screen and (max-width: 391px){
