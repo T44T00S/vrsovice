@@ -2,23 +2,26 @@
     width: 100%;
     height: 5rem;
     background-color: black;
+    background-color: #5B2202;
     .header-container {
         width: 80%;
         height: 100%;
         display: flex;
         margin: auto;
-        // background: green;
         // background: #294805;
         background: #3e5a1d;
+        // background: #5B2202;
         justify-content: flex-end;
         .logo {
             height: 100%;
             width: 10%;
             margin-right: auto;
+            justify-content: center;
+            align-items: center;
             .logo-img {
                 object-fit: fill;
-                width: 100%;
-                height: 100%;
+                width: 80%;
+                height: 80%;
             }
         }
         .homepage-button {
