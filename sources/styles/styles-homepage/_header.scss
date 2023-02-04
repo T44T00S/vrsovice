@@ -12,7 +12,14 @@
         background: #3e5a1d;
         justify-content: flex-end;
         .logo {
-            
+            height: 100%;
+            width: 10%;
+            margin-right: auto;
+            .logo-img {
+                object-fit: fill;
+                width: 100%;
+                height: 100%;
+            }
         }
         .homepage-button {
             height: 100%;
