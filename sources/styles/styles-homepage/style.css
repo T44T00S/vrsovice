@@ -101,9 +101,13 @@ select {
   border: 0;
   font-weight: bold;
 }
-.header .header-container .homepage-button:hover {
-  background: #294805;
-  cursor: pointer;
+.header .header-container .homepage-button .homepage-button-link {
+  text-decoration: none;
+  color: white;
+}
+.header .header-container .homepage-button .homepage-button-link:hover {
+  color: black;
+  transition: 0.2s color ease-in-out;
 }
 .header .header-container .gallery-button {
   height: 100%;
@@ -116,9 +120,9 @@ select {
   text-decoration: none;
   color: white;
 }
-.header .header-container .gallery-button:hover {
-  background: #294805;
-  cursor: pointer;
+.header .header-container .gallery-button .gallery-button-link:hover {
+  color: black;
+  transition: 0.2s color ease-in-out;
 }
 .header .header-container .about-button {
   height: 100%;
@@ -142,9 +146,13 @@ select {
   border: 0;
   font-weight: bold;
 }
-.header .header-container .contact-button:hover {
-  background: #294805;
-  cursor: pointer;
+.header .header-container .contact-button .contact-button-link {
+  text-decoration: none;
+  color: white;
+}
+.header .header-container .contact-button .contact-button-link:hover {
+  color: black;
+  transition: 0.2s color ease-in-out;
 }
 
 @media only screen and (max-width: 391px) {
