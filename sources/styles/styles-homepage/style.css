@@ -64,16 +64,19 @@ select {
     scroll-behavior: auto;
   }
   *,
-*::before,
-*::after {
-    -webkit-animation-duration: 0.01ms !important;
-            animation-duration: 0.01ms !important;
-    -webkit-animation-iteration-count: 1 !important;
-            animation-iteration-count: 1 !important;
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
 }
+:root {
+  --green: #3e5a1d;
+  --brown: #5B2202;
+}
+
 .app {
   width: 100vw;
   height: 100vh;
@@ -84,21 +87,21 @@ select {
 .header {
   width: 100%;
   height: 5rem;
-  background-color: black;
-  background-color: #5B2202;
+  background-color: var(--brown);
 }
 .header .header-container {
   width: 80%;
   height: 100%;
   display: flex;
   margin: auto;
-  background: #3e5a1d;
+  background: #5B2202;
   justify-content: flex-end;
 }
 .header .header-container .logo {
   height: 100%;
   width: 10%;
   margin-right: auto;
+  margin-top: 0.5rem;
   justify-content: center;
   align-items: center;
 }
