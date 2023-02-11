@@ -26,7 +26,7 @@
         .homepage-button {
             height: 100%;
             width: 15%;
-            background: #3e5a1d;
+            background: var(--green);
             border: 0;
             font-weight: bold;
             .homepage-button-link {
@@ -46,7 +46,7 @@
         .gallery-button {
             height: 100%;
             width: 10%;
-            background: #3e5a1d;
+            background: var(--green);
             border: 0;
             font-weight: bold;
             .gallery-button-link {
@@ -61,7 +61,7 @@
         .about-button {
             height: 100%;
             width: 15%;
-            background: #3e5a1d;
+            background: var(--green);
             border: 0;
             font-weight: bold;
             .about-button-link {
@@ -76,7 +76,7 @@
         .contact-button {
             height: 100%;
             width: 10%;
-            background: #3e5a1d;
+            background: var(--green);
             border: 0;
             font-weight: bold;
             .contact-button-link {
