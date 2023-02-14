@@ -252,7 +252,6 @@ select {
 .hero .hero-container .hero-pic:nth-child(1) {
   width: 45%;
   height: 100%;
-  background-color: var(--white);
 }
 .hero .hero-container .hero-pic:nth-child(1) .hero-pic-one {
   -o-object-fit: cover;
@@ -260,11 +259,16 @@ select {
   display: block;
   width: 100%;
   height: 100%;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  transition: transform 0.5s ease;
+}
+.hero .hero-container .hero-pic:nth-child(1) .hero-pic-one:hover {
+  transform: scale(1.1);
 }
 .hero .hero-container .hero-pic:nth-child(2) {
   width: 65%;
   height: 100%;
-  background-color: red;
 }
 .hero .hero-container .hero-pic:nth-child(2) .hero-pic-two {
   -o-object-fit: cover;
@@ -272,6 +276,11 @@ select {
   display: block;
   width: 100%;
   height: 100%;
+  border-radius: 25px;
+  transition: transform 0.5s ease;
+}
+.hero .hero-container .hero-pic:nth-child(2) .hero-pic-two:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 391px) {
