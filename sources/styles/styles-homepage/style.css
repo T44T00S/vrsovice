@@ -86,7 +86,7 @@ select {
   height: 300vh;
   max-width: 100%;
   overflow: visible;
-  background-color: #5B2202;
+  background-color: var(--green);
 }
 
 .header {
@@ -213,11 +213,13 @@ select {
 }
 .title .title-container {
   width: 55%;
-  height: 55%;
+  height: 10%;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
+  background: var(--brown);
+  border-radius: 25px;
 }
 .title .title-container .title-text {
   font-size: 4rem;
@@ -242,7 +244,7 @@ select {
 .hero {
   width: 100%;
   height: 35rem;
-  background: var(--brown);
+  background: var(--green);
   margin-bottom: 4rem;
 }
 .hero .hero-container {
@@ -308,7 +310,7 @@ select {
 .social .social-container {
   width: 80%;
   height: 100%;
-  background: var(--green);
+  background: var(--brown);
   margin: auto;
   display: flex;
   align-items: center;

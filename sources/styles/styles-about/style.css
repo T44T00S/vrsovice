@@ -86,7 +86,7 @@ select {
   height: 300vh;
   max-width: 100%;
   overflow: visible;
-  background-color: #5B2202;
+  background-color: var(--green);
 }
 
 .header {
