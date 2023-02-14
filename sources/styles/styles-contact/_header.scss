@@ -1,13 +1,13 @@
 .header {
     width: 100%;
     height: 5rem;
-    background-color: var(--green);
+    background-color: var(--header);
     .header-container {
         width: 80%;
         height: 100%;
         display: flex;
         margin: auto;
-        background-color: var(--green);
+        background-color: var(--header);
         justify-content: flex-end;
         .logo {
             height: 100%;
@@ -25,7 +25,7 @@
         .homepage-button {
             height: 100%;
             width: 15%;
-            background: var(--green);
+            background: var(--header);
             border: 0;
             font-weight: bold;
             .homepage-button-link {
@@ -33,14 +33,14 @@
                 color: white;
             }
             .homepage-button-link:hover {
-                color: black;
+                color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
             }
         }
         .gallery-button {
             height: 100%;
             width: 10%;
-            background: var(--green);
+            background: var(--header);
             border: 0;
             font-weight: bold;
             .gallery-button-link {
@@ -48,14 +48,14 @@
                 color: white;
             }
             .gallery-button-link:hover {
-                color: black;
+                color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
             }
         }
         .about-button {
             height: 100%;
             width: 15%;
-            background: var(--green);
+            background: var(--header);
             border: 0;
             font-weight: bold;
             .about-button-link {
@@ -63,14 +63,14 @@
                 color: white;
             }
             .about-button-link:hover {
-                color: black;
+                color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
             }
         }
         .contact-button {
             height: 100%;
             width: 10%;
-            background: var(--green);
+            background: var(--header);
             border: 0;
             font-weight: bold;
             .contact-button-link {
@@ -78,7 +78,7 @@
                 color: white;
             }
             .contact-button-link:hover {
-                color: black;
+                color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
             }
         }
