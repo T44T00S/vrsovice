@@ -73,12 +73,12 @@ select {
   }
 }
 :root {
-  --header: #3e5a1d;
-  --headerlink: #5B2202;
   --green: #3e5a1d;
   --brown: #5B2202;
   --black: black;
   --white: white;
+  --header: #3e5a1d;
+  --headerlink: #5B2202;
 }
 
 .app {
