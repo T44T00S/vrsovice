@@ -81,9 +81,10 @@ select {
 
 .app {
   width: 100vw;
-  height: 100vh;
+  height: 300vh;
   max-width: 100%;
   overflow: visible;
+  background-color: #3e5a1d;
 }
 
 .header {
