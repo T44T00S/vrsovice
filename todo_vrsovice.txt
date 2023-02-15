@@ -6,3 +6,5 @@ Zkusit jestli při použiti img přes css nebo flexu se nespraví overlay titlu 
 U social media icons hover:transform-scale(1.1)?
 
 Nový logo.
+
+Footer - při hover nad text změnit na hnědou
