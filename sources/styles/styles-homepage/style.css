@@ -223,7 +223,7 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--title-bg);
+  background: var(--title);
   border-radius: 25px;
 }
 .title .title-container .title-text {
