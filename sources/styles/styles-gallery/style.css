@@ -208,7 +208,7 @@ select {
 }
 .first-section {
   width: 100%;
-  height: 40rem;
+  height: 50rem;
   background: var(--first);
   display: flex;
   justify-content: space-around;
@@ -223,7 +223,7 @@ select {
 }
 .first-section .first-container .first-half:nth-child(1) {
   width: 50%;
-  height: 100%;
+  height: 80%;
 }
 .first-section .first-container .first-half:nth-child(1) .first-half-pic {
   -o-object-fit: cover;
@@ -239,7 +239,8 @@ select {
 }
 .first-section .first-container .first-half:nth-child(2) {
   width: 50%;
-  height: 100%;
+  height: 80%;
+  margin-top: 10rem;
 }
 .first-section .first-container .first-half:nth-child(2) .first-half-pic {
   -o-object-fit: cover;
@@ -270,7 +271,7 @@ select {
 }
 .second-section {
   width: 100%;
-  height: 40rem;
+  height: 50rem;
   background: var(--second);
   display: flex;
   justify-content: space-around;
@@ -285,7 +286,7 @@ select {
 }
 .second-section .second-container .second-half:nth-child(1) {
   width: 50%;
-  height: 100%;
+  height: 80%;
 }
 .second-section .second-container .second-half:nth-child(1) .second-half-pic {
   -o-object-fit: cover;
@@ -301,7 +302,8 @@ select {
 }
 .second-section .second-container .second-half:nth-child(2) {
   width: 50%;
-  height: 100%;
+  height: 80%;
+  margin-top: 10rem;
 }
 .second-section .second-container .second-half:nth-child(2) .second-half-pic {
   -o-object-fit: cover;
@@ -333,7 +335,7 @@ select {
 }
 .third-section {
   width: 100%;
-  height: 40rem;
+  height: 50rem;
   background: var(--third);
   display: flex;
   justify-content: space-around;
@@ -348,7 +350,7 @@ select {
 }
 .third-section .third-container .third-half:nth-child(1) {
   width: 50%;
-  height: 100%;
+  height: 80%;
 }
 .third-section .third-container .third-half:nth-child(1) .third-half-pic {
   -o-object-fit: cover;
@@ -364,7 +366,20 @@ select {
 }
 .third-section .third-container .third-half:nth-child(2) {
   width: 50%;
+  height: 80%;
+  margin-top: 10rem;
+}
+.third-section .third-container .third-half:nth-child(2) .third-half-pic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  width: 100%;
   height: 100%;
+  border-radius: 25px;
+  transition: transform 0.5s ease;
+}
+.third-section .third-container .third-half:nth-child(2) .third-half-pic:hover {
+  transform: scale(1.05);
 }
 
 @media only screen and (max-width: 391px) {
