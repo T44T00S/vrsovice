@@ -79,6 +79,12 @@ select {
   --white: white;
   --header: #3e5a1d;
   --headerlink: #5B2202;
+  --title: #5B2202;
+  --hero-bg: #3e5a1d;
+  --social-container: #5B2202;
+  --footer: #3e5a1d;
+  --footer-component: #5B2202;
+  --footer-text: white;
 }
 
 .app {

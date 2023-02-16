@@ -2,7 +2,7 @@
     width: 100%;
     height: 55rem;
     // background: #88002D;
-    background: var(--brown);
+    background: var(--title);
     margin-bottom: 4rem;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background: var(--brown);
+        background: var(--title-bg);
         border-radius: 25px;
         .title-text {
             font-size: 4rem;

@@ -1,7 +1,7 @@
 .footer {
     width: 100%;
     height: 20rem;
-    background: var(--green);
+    background: var(--footer);
     .footer-container {
         width: 100%;
         height: 100%;
@@ -12,7 +12,7 @@
         .footer-section:nth-child(1) {
             width: 30%;
             height: 30%;
-            background-color: var(--brown);
+            background-color: var(--footer-component);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -58,7 +58,7 @@
             flex-direction: column;
             align-items: center;
             .footer-section-two-logo {
-                background-color: var(--brown);
+                background-color: var(--footer-component);
                 width: 30%;
                 height: 50%;
                 display: flex;
@@ -70,7 +70,7 @@
             }
             .footer-section-two-copyright {
                 margin-top: 1rem;
-                background-color: var(--brown);
+                background-color: var(--footer-component);
                 width: 75%;
                 height: 30%;
                 display: flex;
@@ -78,7 +78,7 @@
                 justify-content: center;
                 border-radius: 25px;
                 .footer-copyright-text {
-                    color: var(--white);
+                    color: var(--footer-text);
                 }
             }
         }
@@ -93,37 +93,37 @@
             .footer-section-three-block:nth-child(1) {
                 width: 75%;
                 height: 30%;
-                background-color: var(--brown);
+                background-color: var(--footer-component);
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
                 .ft-st-two-privacy {
-                    color: var(--white);
+                    color: var(--footer-text);
                 }
             }
             .footer-section-three-block:nth-child(2) {
                 width: 75%;
                 height: 30%;
-                background-color: var(--brown);
+                background-color: var(--footer-component);
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
                 .ft-st-two-cookies {
-                    color: var(--white);
+                    color: var(--footer-text);
                 }
             }
             .footer-section-three-block:nth-child(3) {
                 width: 75%;
                 height: 30%;
-                background-color: var(--brown);
+                background-color: var(--footer-component);
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
                 .ft-st-two-legal {
-                    color: var(--white);
+                    color: var(--footer-text);
                 }
             }
         }
