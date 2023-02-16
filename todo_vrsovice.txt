@@ -1,5 +1,6 @@
 header - záložky při přejetí myši zobrazení border (hover: border[brown])
 u spodní hrany header border (barva?)
+Problém s hover:color?
 
 Title - při hover zvětšit o 1.1 + odkaz na O Vršovicích.
 Zkusit jestli při použiti img přes css nebo flexu se nespraví overlay titlu přes obrázek.
