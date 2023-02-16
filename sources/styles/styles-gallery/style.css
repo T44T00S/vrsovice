@@ -86,7 +86,7 @@ select {
   --footer-component: #5B2202;
   --footer-text: white;
   --first: #5B2202;
-  --second: #3e5a1d;
+  --second: #5B2202;
   --third: #5B2202;
 }
 
@@ -102,6 +102,7 @@ select {
   height: 5rem;
   background-color: var(--header);
   border-bottom: 0.5rem solid var(--black);
+  z-index: 1;
 }
 .header .header-container {
   width: 80%;
@@ -270,7 +271,7 @@ select {
 .second-section {
   width: 100%;
   height: 40rem;
-  background: var(--white);
+  background: var(--second);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -278,7 +279,6 @@ select {
 .second-section .second-container {
   width: 90%;
   height: 85%;
-  background: black;
   display: flex;
   justify-content: space-between;
   gap: 3rem;
@@ -286,12 +286,34 @@ select {
 .second-section .second-container .second-half:nth-child(1) {
   width: 50%;
   height: 100%;
-  background-color: var(--green);
+}
+.second-section .second-container .second-half:nth-child(1) .second-half-pic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  transition: transform 0.5s ease;
+}
+.second-section .second-container .second-half:nth-child(1) .second-half-pic:hover {
+  transform: scale(1.05);
 }
 .second-section .second-container .second-half:nth-child(2) {
   width: 50%;
   height: 100%;
-  background-color: var(--green);
+}
+.second-section .second-container .second-half:nth-child(2) .second-half-pic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  transition: transform 0.5s ease;
+}
+.second-section .second-container .second-half:nth-child(2) .second-half-pic:hover {
+  transform: scale(1.05);
 }
 
 @media only screen and (max-width: 391px) {
@@ -320,7 +342,6 @@ select {
 .third-section .third-container {
   width: 90%;
   height: 85%;
-  background: black;
   display: flex;
   justify-content: space-between;
   gap: 3rem;
@@ -328,12 +349,22 @@ select {
 .third-section .third-container .third-half:nth-child(1) {
   width: 50%;
   height: 100%;
-  background-color: var(--green);
+}
+.third-section .third-container .third-half:nth-child(1) .third-half-pic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  transition: transform 0.5s ease;
+}
+.third-section .third-container .third-half:nth-child(1) .third-half-pic:hover {
+  transform: scale(1.05);
 }
 .third-section .third-container .third-half:nth-child(2) {
   width: 50%;
   height: 100%;
-  background-color: var(--green);
 }
 
 @media only screen and (max-width: 391px) {

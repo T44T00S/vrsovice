@@ -86,7 +86,7 @@ select {
   --footer-component: #5B2202;
   --footer-text: white;
   --first: #5B2202;
-  --second: #3e5a1d;
+  --second: #5B2202;
   --third: #5B2202;
 }
 
@@ -101,6 +101,7 @@ select {
   width: 100%;
   height: 5rem;
   background-color: var(--header);
+  z-index: 1;
 }
 .header .header-container {
   width: 80%;
