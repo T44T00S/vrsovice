@@ -85,6 +85,9 @@ select {
   --footer: #3e5a1d;
   --footer-component: #5B2202;
   --footer-text: white;
+  --first: #5B2202;
+  --second: #3e5a1d;
+  --third: #5B2202;
 }
 
 .app {
