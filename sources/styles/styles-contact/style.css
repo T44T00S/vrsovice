@@ -90,8 +90,11 @@ select {
   --second: #5B2202;
   --third: #5B2202;
   --first-about: #5B2202;
-  --first-about-title-bg: #3e5a1d;
   --first-about-text-bg: #3e5a1d;
+  --second-about: #5B2202;
+  --second-about-text-bg: #3e5a1d;
+  --third-about: #5B2202;
+  --third-about-text-bg: #3e5a1d;
 }
 
 .app {

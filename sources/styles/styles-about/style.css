@@ -90,8 +90,11 @@ select {
   --second: #5B2202;
   --third: #5B2202;
   --first-about: #5B2202;
-  --first-about-title-bg: #3e5a1d;
   --first-about-text-bg: #3e5a1d;
+  --second-about: #5B2202;
+  --second-about-text-bg: #3e5a1d;
+  --third-about: #5B2202;
+  --third-about-text-bg: #3e5a1d;
 }
 
 .app {
@@ -238,7 +241,7 @@ select {
   transition: transform 0.5s ease;
 }
 .first-section .first-container .first-about:nth-child(1) .first-about-pic:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 .first-section .first-container .first-about:nth-child(2) {
   width: 40%;
@@ -247,14 +250,14 @@ select {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 1.2rem;
 }
 .first-section .first-container .first-about:nth-child(2) .first-about-title {
-  background-color: var(--first-about-title-bg);
+  background-color: var(--first-about-text-bg);
   border-radius: 15px;
 }
 .first-section .first-container .first-about:nth-child(2) .first-about-text {
-  background-color: var(--first-about-title-bg);
+  background-color: var(--first-about-text-bg);
   border-radius: 15px;
   width: 80%;
   font-size: 1.1rem;
@@ -282,16 +285,55 @@ select {
 .second-section {
   width: 100%;
   height: 40rem;
-  background: black;
+  background: var(--second-about);
   display: flex;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: center;
 }
 .second-section .second-container {
-  width: 52%;
-  height: 82%;
-  background: green;
-  margin-right: 9.5rem;
+  width: 85%;
+  height: 80%;
+  display: flex;
+  gap: 1rem;
+}
+.second-section .second-container .second-about:nth-child(1) {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.second-section .second-container .second-about:nth-child(1) .second-about-title {
+  background-color: var(--second-about-text-bg);
+  border-radius: 15px;
+}
+.second-section .second-container .second-about:nth-child(1) .second-about-text {
+  background-color: var(--second-about-text-bg);
+  border-radius: 15px;
+  width: 80%;
+  font-size: 1.1rem;
+  transition: transform 0.5s ease;
+}
+.second-section .second-container .second-about:nth-child(1) .second-about-text:hover {
+  transform: scale(1.15);
+}
+.second-section .second-container .second-about:nth-child(2) {
+  width: 60%;
+  height: 100%;
+}
+.second-section .second-container .second-about:nth-child(2) .second-about-pic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  transition: transform 0.5s ease;
+}
+.second-section .second-container .second-about:nth-child(2) .second-about-pic:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 391px) {
@@ -312,15 +354,55 @@ select {
 .third-section {
   width: 100%;
   height: 40rem;
-  background: brown;
+  background: var(--third-about);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .third-section .third-container {
-  width: 52%;
-  height: 82%;
-  background: black;
-  margin-left: 9.5rem;
+  width: 85%;
+  height: 80%;
+  display: flex;
+  gap: 1rem;
+}
+.third-section .third-container .third-about:nth-child(1) {
+  width: 60%;
+  height: 100%;
+}
+.third-section .third-container .third-about:nth-child(1) .third-about-pic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 25px;
+  transition: transform 0.5s ease;
+}
+.third-section .third-container .third-about:nth-child(1) .third-about-pic:hover {
+  transform: scale(1.1);
+}
+.third-section .third-container .third-about:nth-child(2) {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+}
+.third-section .third-container .third-about:nth-child(2) .third-about-title {
+  background-color: var(--third-about-text-bg);
+  border-radius: 15px;
+}
+.third-section .third-container .third-about:nth-child(2) .third-about-text {
+  background-color: var(--third-about-text-bg);
+  border-radius: 15px;
+  width: 80%;
+  font-size: 1.1rem;
+  transition: transform 0.5s ease;
+}
+.third-section .third-container .third-about:nth-child(2) .third-about-text:hover {
+  transform: scale(1.15);
 }
 
 @media only screen and (max-width: 391px) {
