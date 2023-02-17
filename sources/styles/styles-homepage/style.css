@@ -79,6 +79,7 @@ select {
   --white: white;
   --header: #3e5a1d;
   --headerlink: #5B2202;
+  --header-border: black;
   --title: #5B2202;
   --hero-bg: #3e5a1d;
   --social-container: #5B2202;
@@ -89,6 +90,8 @@ select {
   --second: #5B2202;
   --third: #5B2202;
   --first-about: #5B2202;
+  --first-about-title-bg: #3e5a1d;
+  --first-about-text-bg: #3e5a1d;
 }
 
 .app {
@@ -102,6 +105,7 @@ select {
   width: 100%;
   height: 5rem;
   background-color: var(--header);
+  border-bottom: 0.3rem solid var(--header-border);
   z-index: 1;
 }
 .header .header-container {

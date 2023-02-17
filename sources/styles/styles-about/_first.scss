@@ -18,18 +18,42 @@
         .first-about:nth-child(1) {
             width: 60%;
             height: 100%;
-            background-color: var(--green);
+            // background-color: var(--green);
             .first-about-pic {
                 object-fit: cover;
                 display: block;
                 width: 100%;
                 height: 100%;
+                border-radius: 25px;
+                transition: transform .5s ease;
+            }
+            .first-about-pic:hover {
+                transform: scale(1.05);
             }
         }
         .first-about:nth-child(2) {
             width: 40%;
             height: 100%;
-            background-color: var(--white);
+            // background-color: var(--white);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            .first-about-title {
+                background-color: var(--first-about-title-bg);
+                border-radius: 15px;
+            }
+            .first-about-text {
+                background-color: var(--first-about-title-bg);
+                border-radius: 15px;
+                width: 80%;
+                font-size: 1.1rem;
+                transition: transform .5s ease;
+            }
+            .first-about-text:hover {
+                transform: scale(1.15);
+            }
         }
     }
 }
