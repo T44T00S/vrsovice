@@ -1,17 +1,36 @@
 .first-section {
     width: 100%;
     height: 40rem;
-    background: brown;
+    background: var(--first-about);
     // margin-bottom: 4rem;
     display: flex;
     // justify-content: space-around;
     align-items: center;
+    justify-content: center;
     .first-container {
-        width: 52%;
-        height: 82%;
-        background: black;
+        width: 85%;
+        height: 80%;
+        // background: black;
+        display: flex;
+        gap: 1rem;
         // margin: auto;
-        margin-left: 9.5rem;
+        // margin-left: 9.5rem;
+        .first-about:nth-child(1) {
+            width: 60%;
+            height: 100%;
+            background-color: var(--green);
+            .first-about-pic {
+                object-fit: cover;
+                display: block;
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .first-about:nth-child(2) {
+            width: 40%;
+            height: 100%;
+            background-color: var(--white);
+        }
     }
 }
 @media only screen and (max-width: 391px){

@@ -88,6 +88,7 @@ select {
   --first: #5B2202;
   --second: #5B2202;
   --third: #5B2202;
+  --first-about: #5B2202;
 }
 
 .app {
@@ -208,15 +209,33 @@ select {
 .first-section {
   width: 100%;
   height: 40rem;
-  background: brown;
+  background: var(--first-about);
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .first-section .first-container {
-  width: 52%;
-  height: 82%;
-  background: black;
-  margin-left: 9.5rem;
+  width: 85%;
+  height: 80%;
+  display: flex;
+  gap: 1rem;
+}
+.first-section .first-container .first-about:nth-child(1) {
+  width: 60%;
+  height: 100%;
+  background-color: var(--green);
+}
+.first-section .first-container .first-about:nth-child(1) .first-about-pic {
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.first-section .first-container .first-about:nth-child(2) {
+  width: 40%;
+  height: 100%;
+  background-color: var(--white);
 }
 
 @media only screen and (max-width: 391px) {
