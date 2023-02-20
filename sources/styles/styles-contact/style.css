@@ -95,6 +95,8 @@ select {
   --second-about-text-bg: #3e5a1d;
   --third-about: #5B2202;
   --third-about-text-bg: #3e5a1d;
+  --text-container: #5B2202;
+  --support-text: white;
 }
 
 .app {
@@ -216,7 +218,6 @@ select {
 .picture-bg {
   width: 100%;
   height: 50rem;
-  background: brown;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -227,6 +228,20 @@ select {
   height: 100%;
   width: 100%;
 }
+.picture-bg .text-container {
+  height: 10%;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background: var(--text-container);
+  border-radius: 25px;
+}
+.picture-bg .text-container .text {
+  color: var(--support-text);
+  font-size: 3rem;
+}
 
 @media only screen and (max-width: 391px) {
   .social {
@@ -234,7 +249,7 @@ select {
     height: 24rem;
   }
 }
-.personal {
+.contact {
   width: 100%;
   height: 50rem;
   background: black;
@@ -242,12 +257,12 @@ select {
   justify-content: center;
   align-items: center;
 }
-.personal .personal-container {
+.contact .contact-container {
   width: 80%;
   height: 80%;
   background: brown;
+  display: flex;
 }
-
 @media only screen and (max-width: 391px) {
   .personal {
     width: 100%;
