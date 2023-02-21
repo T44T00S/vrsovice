@@ -17,11 +17,24 @@
             height: 50%;
             display: flex;
             justify-content: space-between;
-            gap: 2rem;
+            align-items: center;
+            gap: 0.5rem;
             .contact-block:nth-child(1) {
                 width: 50%;
                 height: 100%;
                 background: var(--brown);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .mail-text {
+                    font-size: 2rem;
+                    color: var(--white);
+                }
+                .mail {
+                    font-size: 2rem;
+                    // color: var(--white);
+                }
             }
             .contact-block:nth-child(2) {
                 width: 50%;
