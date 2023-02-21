@@ -97,6 +97,10 @@ select {
   --third-about-text-bg: #3e5a1d;
   --text-container: #5B2202;
   --support-text: white;
+  --contact: #5B2202;
+  --contact-block: #3e5a1d;
+  --mail-text: white;
+  --mail: white;
 }
 
 .app {
