@@ -101,6 +101,10 @@ select {
   --contact-block: #3e5a1d;
   --mail-text: white;
   --mail: white;
+  --phone-text: white;
+  --phone: white;
+  --linkedin-text: white;
+  --linkedin: white;
 }
 
 .app {
@@ -297,6 +301,17 @@ select {
   width: 50%;
   height: 100%;
   background: var(--contact-block);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(2) .phone-text {
+  font-size: 2rem;
+  color: var(--phone-text);
+}
+.contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(2) .phone {
+  font-size: 2rem;
 }
 .contact .contact-container .contact-block-container:nth-child(2) {
   width: 100%;
@@ -309,6 +324,18 @@ select {
   width: 50%;
   height: 100%;
   background: var(--contact-block);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(1) .linkedin-text {
+  font-size: 2rem;
+  color: var(--linkedin-text);
+}
+.contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(1) .linkedin {
+  font-size: 2rem;
+  color: -webkit-link;
 }
 .contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(2) {
   width: 50%;

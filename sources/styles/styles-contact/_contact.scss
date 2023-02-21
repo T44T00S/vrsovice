@@ -40,6 +40,17 @@
                 width: 50%;
                 height: 100%;
                 background: var(--contact-block);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .phone-text {
+                    font-size: 2rem;
+                    color: var(--phone-text);
+                }
+                .phone {
+                    font-size: 2rem;
+                }
             }
         }
         .contact-block-container:nth-child(2) {
@@ -52,6 +63,18 @@
                 width: 50%;
                 height: 100%;
                 background: var(--contact-block);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .linkedin-text {
+                    font-size: 2rem;
+                    color: var(--linkedin-text);
+                }
+                .linkedin {
+                    font-size: 2rem;
+                    color: -webkit-link;
+                }
             }
             .contact-block-two:nth-child(2) {
                 width: 50%;

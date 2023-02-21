@@ -101,6 +101,10 @@ select {
   --contact-block: #3e5a1d;
   --mail-text: white;
   --mail: white;
+  --phone-text: white;
+  --phone: white;
+  --linkedin-text: white;
+  --linkedin: white;
 }
 
 .app {
