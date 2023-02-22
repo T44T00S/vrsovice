@@ -107,6 +107,7 @@ select {
   --linkedin: white;
   --discord-text: white;
   --discord: white;
+  --page-menu: #3e5a1d;
 }
 
 .app {
@@ -281,7 +282,7 @@ select {
     height: 100%;
     display: block;
     margin-right: 1rem;
-    background-color: var(--green);
+    background-color: var(--page-menu);
   }
 }
 .title {
