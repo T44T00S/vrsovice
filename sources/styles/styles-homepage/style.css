@@ -318,7 +318,7 @@ select {
 @media only screen and (max-width: 391px) {
   .title {
     width: 100%;
-    height: 18rem;
+    height: 25rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -326,8 +326,15 @@ select {
   }
   .title .title-container {
     width: 60%;
-    height: 20%;
-    background: green;
+    height: 15%;
+    background: var(--title);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .title .title-container .title-text {
+    width: 90%;
+    font-size: 2rem;
   }
 }
 .hero {
