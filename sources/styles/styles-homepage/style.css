@@ -386,16 +386,41 @@ select {
 @media only screen and (max-width: 391px) {
   .hero {
     width: 100%;
-    height: 30rem;
+    height: 25rem;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 0;
   }
   .hero .hero-container {
-    width: 85%;
-    height: 80%;
-    background: black;
+    width: 100%;
+    height: 85%;
+    gap: 1rem;
+  }
+  .hero .hero-container .hero-pic:nth-child(1) {
+    height: 100%;
+    width: 50%;
+  }
+  .hero .hero-container .hero-pic:nth-child(1) .hero-pic-one {
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 25px;
+  }
+  .hero .hero-container .hero-pic:nth-child(2) {
+    height: 100%;
+    width: 50%;
+  }
+  .hero .hero-container .hero-pic:nth-child(2) .hero-pic-two {
+    -o-object-fit: cover;
+       object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
   }
 }
 .social {
