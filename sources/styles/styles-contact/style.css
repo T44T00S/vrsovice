@@ -206,6 +206,9 @@ select {
   color: var(--headerlink);
   transition: 0.2s color ease-in-out;
 }
+.header .header-container .page-menu {
+  display: none;
+}
 
 .sticky {
   position: fixed;

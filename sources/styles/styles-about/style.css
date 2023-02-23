@@ -206,6 +206,9 @@ select {
   color: var(--headerlink);
   transition: 0.2s color ease-in-out;
 }
+.header .header-container .page-menu {
+  display: none;
+}
 
 .sticky {
   position: fixed;
@@ -438,14 +441,14 @@ select {
   }
   .second-section .second-container .second-about:nth-child(1) {
     width: 100%;
-    height: 45%;
+    height: 55%;
+  }
+  .second-section .second-container .second-about:nth-child(1) .second-about-text {
+    width: 90%;
   }
   .second-section .second-container .second-about:nth-child(2) {
     width: 100%;
-    height: 55%;
-  }
-  .second-section .second-container .second-about:nth-child(2) .second-about-text {
-    width: 90%;
+    height: 45%;
   }
 }
 .third-section {
@@ -505,12 +508,11 @@ select {
 @media only screen and (max-width: 391px) {
   .third-section {
     width: 100%;
-    height: 30rem;
+    height: 50rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
-    display: none;
   }
   .third-section .third-container {
     width: 90%;
@@ -518,6 +520,18 @@ select {
     margin-left: 0;
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
+  }
+  .third-section .third-container .third-about:nth-child(1) {
+    width: 100%;
+    height: 45%;
+  }
+  .third-section .third-container .third-about:nth-child(2) {
+    width: 100%;
+    height: 55%;
+  }
+  .third-section .third-container .third-about:nth-child(2) .third-about-text {
+    width: 90%;
   }
 }
 .footer {

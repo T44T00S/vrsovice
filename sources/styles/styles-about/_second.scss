@@ -67,14 +67,14 @@
             gap: 1.5rem;
             .second-about:nth-child(1) {
                 width: 100%;
-                height: 45%;
-            }
-            .second-about:nth-child(2) {
-                width: 100%;
                 height: 55%;
                 .second-about-text {
                     width: 90%;
                 }
+            }
+            .second-about:nth-child(2) {
+                width: 100%;
+                height: 45%;
             }
         }
     }

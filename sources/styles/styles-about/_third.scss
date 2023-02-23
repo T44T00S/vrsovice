@@ -53,30 +53,27 @@
 @media only screen and (max-width: 391px){
     .third-section {
         width: 100%;
-        height: 30rem;
+        height: 50rem;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 0;
-
-        display: none;
         .third-container {
             width: 90%;
             height: 90%;
             margin-left: 0;
             display: flex;
             flex-direction: column;
-            .first-about:nth-child(1) {
-                .first-about-pic {
-                    
-                }
+            gap: 1.5rem;
+            .third-about:nth-child(1) {
+                width: 100%;
+                height: 45%;
             }
-            .first-about:nth-child(2) {
-                .first-about-title {
-
-                }
-                .first-about-text {
-
+            .third-about:nth-child(2) {
+                width: 100%;
+                height: 55%;
+                .third-about-text {
+                    width: 90%;
                 }
             }
         }
