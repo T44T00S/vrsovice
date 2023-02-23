@@ -480,8 +480,10 @@ select {
     margin-bottom: 0;
   }
   .social .social-container {
-    width: 90%;
-    height: 65%;
+    width: 95%;
+    height: 75%;
+    gap: 1rem;
+    border-radius: 20px;
   }
   .social .social-container .fa {
     font-size: 3rem;
