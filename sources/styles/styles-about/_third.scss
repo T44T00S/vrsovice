@@ -58,10 +58,27 @@
         align-items: center;
         justify-content: center;
         margin-bottom: 0;
+
+        display: none;
         .third-container {
-            width: 65%;
-            height: 55%;
+            width: 90%;
+            height: 90%;
             margin-left: 0;
+            display: flex;
+            flex-direction: column;
+            .first-about:nth-child(1) {
+                .first-about-pic {
+                    
+                }
+            }
+            .first-about:nth-child(2) {
+                .first-about-title {
+
+                }
+                .first-about-text {
+
+                }
+            }
         }
     }
 }

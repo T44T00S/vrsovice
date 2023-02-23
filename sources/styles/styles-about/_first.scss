@@ -60,15 +60,35 @@
 @media only screen and (max-width: 391px){
     .first-section {
         width: 100%;
-        height: 30rem;
+        height: 50rem;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 0;
         .first-container {
-            width: 65%;
-            height: 55%;
+            width: 90%;
+            height: 90%;
             margin-left: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            .first-about:nth-child(1) {
+                width: 100%;
+                height: 45%;
+                .first-about-pic {
+
+                }
+            }
+            .first-about:nth-child(2) {
+                width: 100%;
+                height: 55%;
+                .first-about-title {
+                    // width: 90%;
+                }
+                .first-about-text {
+                    width: 90%;
+                }
+            }
         }
     }
 }

@@ -53,15 +53,29 @@
 @media only screen and (max-width: 391px){
     .second-section {
         width: 100%;
-        height: 30rem;
+        height: 50rem;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 0;
         .second-container {
-            width: 65%;
-            height: 55%;
-            margin-right: 0;
+            width: 90%;
+            height: 90%;
+            margin-left: 0;
+            display: flex;
+            flex-direction: column-reverse;
+            gap: 1.5rem;
+            .second-about:nth-child(1) {
+                width: 100%;
+                height: 45%;
+            }
+            .second-about:nth-child(2) {
+                width: 100%;
+                height: 55%;
+                .second-about-text {
+                    width: 90%;
+                }
+            }
         }
     }
 }

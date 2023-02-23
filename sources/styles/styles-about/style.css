@@ -339,16 +339,30 @@ select {
 @media only screen and (max-width: 391px) {
   .first-section {
     width: 100%;
-    height: 30rem;
+    height: 50rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
   }
   .first-section .first-container {
-    width: 65%;
-    height: 55%;
+    width: 90%;
+    height: 90%;
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .first-section .first-container .first-about:nth-child(1) {
+    width: 100%;
+    height: 45%;
+  }
+  .first-section .first-container .first-about:nth-child(2) {
+    width: 100%;
+    height: 55%;
+  }
+  .first-section .first-container .first-about:nth-child(2) .first-about-text {
+    width: 90%;
   }
 }
 .second-section {
@@ -408,16 +422,30 @@ select {
 @media only screen and (max-width: 391px) {
   .second-section {
     width: 100%;
-    height: 30rem;
+    height: 50rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
   }
   .second-section .second-container {
-    width: 65%;
+    width: 90%;
+    height: 90%;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+  .second-section .second-container .second-about:nth-child(1) {
+    width: 100%;
+    height: 45%;
+  }
+  .second-section .second-container .second-about:nth-child(2) {
+    width: 100%;
     height: 55%;
-    margin-right: 0;
+  }
+  .second-section .second-container .second-about:nth-child(2) .second-about-text {
+    width: 90%;
   }
 }
 .third-section {
@@ -482,11 +510,14 @@ select {
     align-items: center;
     justify-content: center;
     margin-bottom: 0;
+    display: none;
   }
   .third-section .third-container {
-    width: 65%;
-    height: 55%;
+    width: 90%;
+    height: 90%;
     margin-left: 0;
+    display: flex;
+    flex-direction: column;
   }
 }
 .footer {
