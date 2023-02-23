@@ -379,6 +379,9 @@ select {
 .contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(1) .mail {
   font-size: 2rem;
 }
+.contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(1) .mail-iphone {
+  display: none;
+}
 .contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(2) {
   width: 50%;
   height: 50%;
@@ -392,6 +395,9 @@ select {
 .contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(2) .phone-text {
   font-size: 2rem;
   color: var(--phone-text);
+}
+.contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(2) .phone-text-iphone {
+  display: none;
 }
 .contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(2) .phone {
   font-size: 2rem;
@@ -417,6 +423,9 @@ select {
   font-size: 2rem;
   color: var(--linkedin-text);
 }
+.contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(1) .linkedin-text-iphone {
+  display: none;
+}
 .contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(1) .linkedin {
   font-size: 2rem;
 }
@@ -434,14 +443,77 @@ select {
   font-size: 2rem;
   color: var(--discord-text);
 }
+.contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(2) .discord-text-iphone {
+  display: none;
+}
 .contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(2) .discord {
   font-size: 2rem;
 }
+.contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(2) .discord-iphone {
+  display: none;
+}
 
 @media only screen and (max-width: 391px) {
-  .personal {
+  .contact {
     width: 100%;
-    height: 24rem;
+    height: 25rem;
+  }
+  .contact .contact-container {
+    width: 90%;
+    height: 90%;
+  }
+  .contact .contact-container .contact-block-container:nth-child(1) {
+    gap: 1rem;
+  }
+  .contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(1) .mail-text {
+    font-size: 1.5rem;
+  }
+  .contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(1) .mail {
+    display: none;
+  }
+  .contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(1) .mail-iphone {
+    font-size: 1.5rem;
+    display: block;
+  }
+  .contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(2) .phone-text {
+    display: none;
+  }
+  .contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(2) .phone-text-iphone {
+    font-size: 1.5rem;
+    display: block;
+    color: var(--phone-text);
+  }
+  .contact .contact-container .contact-block-container:nth-child(1) .contact-block:nth-child(2) .phone {
+    font-size: 1.5rem;
+  }
+  .contact .contact-container .contact-block-container:nth-child(2) {
+    gap: 1rem;
+  }
+  .contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(1) .linkedin-text {
+    display: none;
+  }
+  .contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(1) .linkedin-text-iphone {
+    font-size: 1.5rem;
+    display: block;
+    color: var(--linkedin-text);
+  }
+  .contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(1) .linkedin {
+    font-size: 1.5rem;
+  }
+  .contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(2) .discord-text {
+    display: none;
+  }
+  .contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(2) .discord-text-iphone {
+    display: block;
+    font-size: 1.5rem;
+    color: var(--discord-text);
+  }
+  .contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(2) .discord {
+    display: none;
+  }
+  .contact .contact-container .contact-block-container:nth-child(2) .contact-block-two:nth-child(2) .discord-iphone {
+    display: block;
+    font-size: 1.5rem;
   }
 }
 .footer {

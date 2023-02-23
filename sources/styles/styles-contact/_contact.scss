@@ -36,6 +36,9 @@
                     font-size: 2rem;
                     // color: var(--mail);
                 }
+                .mail-iphone {
+                    display: none;
+                }
             }
             .contact-block:nth-child(2) {
                 width: 50%;
@@ -49,6 +52,9 @@
                 .phone-text {
                     font-size: 2rem;
                     color: var(--phone-text);
+                }
+                .phone-text-iphone {
+                    display: none;
                 }
                 .phone {
                     font-size: 2rem;
@@ -74,6 +80,9 @@
                     font-size: 2rem;
                     color: var(--linkedin-text);
                 }
+                .linkedin-text-iphone {
+                    display: none;
+                }
                 .linkedin {
                     font-size: 2rem;
                 }
@@ -91,16 +100,88 @@
                     font-size: 2rem;
                     color: var(--discord-text);
                 }
+                .discord-text-iphone {
+                    display: none;
+                }
                 .discord {
                     font-size: 2rem;
+                }
+                .discord-iphone {
+                    display: none;
                 }
             }   
         }
     }
 }
 @media only screen and (max-width: 391px){
-    .personal {
+    .contact {
         width: 100%;
-        height: 24rem;
+        height: 25rem;
+        .contact-container {
+            width: 90%;
+            height: 90%;
+            .contact-block-container:nth-child(1) {
+                gap: 1rem;
+                .contact-block:nth-child(1) {
+                    // word-wrap: break-word;
+                    .mail-text {
+                        font-size: 1.5rem;
+                    }
+                    .mail {
+                        display: none;
+                    }
+                    .mail-iphone {
+                        font-size: 1.5rem;
+                        display: block;
+                    }
+                }
+                .contact-block:nth-child(2) {
+                    .phone-text {
+                        display: none;
+                    }
+                    .phone-text-iphone {
+                        font-size: 1.5rem;
+                        display: block;
+                        color: var(--phone-text);
+                    }
+                    .phone {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .contact-block-container:nth-child(2) {
+                gap: 1rem;
+                .contact-block-two:nth-child(1) {
+                    .linkedin-text {
+                        display: none;
+                    }
+                    .linkedin-text-iphone {
+                        font-size: 1.5rem;
+                        display: block;
+                        color: var(--linkedin-text);
+                    }
+                    .linkedin {
+                        font-size: 1.5rem;
+                    }
+                }
+                .contact-block-two:nth-child(2) {
+                    .discord-text {
+                        display: none;
+                    }
+                    .discord-text-iphone {
+                        display: block;
+                        font-size: 1.5rem;
+                        color: var(--discord-text);
+                    }
+                    .discord {
+                        display: none;
+                    }
+                    .discord-iphone {
+                        display: block;
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
     }
 }
