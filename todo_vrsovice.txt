@@ -13,3 +13,4 @@ Nový logo.
 
 Footer - při hover nad text změnit na hnědou
 
+U galerie zmensit vysku fotek
