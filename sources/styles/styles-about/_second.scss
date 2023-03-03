@@ -21,6 +21,7 @@
             .second-about-title {
                 background-color: var(--second-about-text-bg);
                 border-radius: 15px;
+                padding: 5px;
             }
             .second-about-text {
                 background-color: var(--second-about-text-bg);
@@ -28,6 +29,7 @@
                 width: 80%;
                 font-size: 1.1rem;
                 transition: transform .5s ease;
+                padding: 5px;
             }
             .second-about-text:hover {
                 transform: scale(1.15);

@@ -43,6 +43,7 @@
             .first-about-title {
                 background-color: var(--first-about-text-bg);
                 border-radius: 15px;
+                padding: 5px;
             }
             .first-about-text {
                 background-color: var(--first-about-text-bg);
@@ -50,6 +51,7 @@
                 width: 80%;
                 font-size: 1.1rem;
                 transition: transform .5s ease;
+                padding: 5px;
             }
             .first-about-text:hover {
                 transform: scale(1.15);

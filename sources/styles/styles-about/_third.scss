@@ -36,6 +36,7 @@
             .third-about-title {
                 background-color: var(--third-about-text-bg);
                 border-radius: 15px;
+                padding: 5px;
             }
             .third-about-text {
                 background-color: var(--third-about-text-bg);
@@ -43,6 +44,7 @@
                 width: 80%;
                 font-size: 1.1rem;
                 transition: transform .5s ease;
+                padding: 5px;
             }
             .third-about-text:hover {
                 transform: scale(1.15);
