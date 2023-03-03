@@ -84,6 +84,7 @@ select {
   --yellow: #f3b61f;
   --header: #6da34d;
   --headerlink: #510d0a;
+  --headerlink-hover: #510d0a;
   --header-border: #f3b61f;
   --title: #510d0a;
   --hero-bg: #f3b61f;
@@ -165,7 +166,7 @@ select {
 .header .header-container .homepage-button .homepage-button-link:hover {
   color: var(--headerlink);
   transition: 0.2s color ease-in-out;
-  border: 2px solid var(--brown2);
+  border: 2px solid var(--headerlink-hover);
   border-radius: 25px;
   padding: 5px;
 }
@@ -183,7 +184,7 @@ select {
 .header .header-container .gallery-button .gallery-button-link:hover {
   color: var(--headerlink);
   transition: 0.2s color ease-in-out;
-  border: 2px solid var(--brown2);
+  border: 2px solid var(--headerlink-hover);
   border-radius: 25px;
   padding: 5px;
 }
@@ -201,7 +202,7 @@ select {
 .header .header-container .about-button .about-button-link:hover {
   color: var(--headerlink);
   transition: 0.2s color ease-in-out;
-  border: 2px solid var(--brown2);
+  border: 2px solid var(--headerlink-hover);
   border-radius: 25px;
   padding: 5px;
 }
@@ -219,7 +220,7 @@ select {
 .header .header-container .contact-button .contact-button-link:hover {
   color: var(--headerlink);
   transition: 0.2s color ease-in-out;
-  border: 2px solid var(--brown2);
+  border: 2px solid var(--headerlink-hover);
   border-radius: 25px;
   padding: 5px;
 }

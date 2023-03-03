@@ -38,7 +38,7 @@
             .homepage-button-link:hover {
                 color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
-                border: 2px solid var(--brown2);
+                border: 2px solid var(--headerlink-hover);
                 border-radius: 25px;
                 padding: 5px;
             }
@@ -61,7 +61,7 @@
             .gallery-button-link:hover {
                 color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
-                border: 2px solid var(--brown2);
+                border: 2px solid var(--headerlink-hover);
                 border-radius: 25px;
                 padding: 5px;
             }
@@ -79,7 +79,7 @@
             .about-button-link:hover {
                 color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
-                border: 2px solid var(--brown2);
+                border: 2px solid var(--headerlink-hover);
                 border-radius: 25px;
                 padding: 5px;
             }
@@ -97,7 +97,7 @@
             .contact-button-link:hover {
                 color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
-                border: 2px solid var(--brown2);
+                border: 2px solid var(--headerlink-hover);
                 border-radius: 25px;
                 padding: 5px;
             }

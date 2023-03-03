@@ -1,6 +1,3 @@
-header - záložky při přejetí myši zobrazení border (hover: border[brown])
-u spodní hrany header border (barva?)
-Problém s hover:color?
 header - pridat u záložek background color s border-radius 
 v mobilni verzi headeru - u menu border-radius ?
 
@@ -12,7 +9,5 @@ U social media icons hover:transform-scale(1.1)?
 Nový logo.
 
 Footer - při hover nad text změnit na hnědou
-
-U galerie zmensit vysku fotek
 
 Vyska kostela na homepage? Coufal
