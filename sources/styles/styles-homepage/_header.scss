@@ -38,6 +38,9 @@
             .homepage-button-link:hover {
                 color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
+                border: 2px solid var(--brown2);
+                border-radius: 25px;
+                padding: 5px;
             }
         }
         // .homepage-button:hover {
@@ -58,6 +61,9 @@
             .gallery-button-link:hover {
                 color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
+                border: 2px solid var(--brown2);
+                border-radius: 25px;
+                padding: 5px;
             }
         }
         .about-button {
@@ -73,6 +79,9 @@
             .about-button-link:hover {
                 color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
+                border: 2px solid var(--brown2);
+                border-radius: 25px;
+                padding: 5px;
             }
         }
         .contact-button {
@@ -88,6 +97,9 @@
             .contact-button-link:hover {
                 color: var(--headerlink);
                 transition: 0.2s color ease-in-out;
+                border: 2px solid var(--brown2);
+                border-radius: 25px;
+                padding: 5px;
             }
         }
         .page-menu {
