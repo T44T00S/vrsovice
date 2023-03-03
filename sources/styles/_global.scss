@@ -1,8 +1,17 @@
 :root {
     --green: #3e5a1d;
+    --green2: #6da34d;
+
     --brown: #5B2202;
+    --brown2: #510d0a;
+    
     --black: black;
+    --black2: #001a23;
+    
     --white: white;
+    --white2: #f4f2f3;
+
+    --yellow: #f3b61f;
 
     // --header: #3e5a1d;
     --header: #6da34d;
@@ -12,20 +21,35 @@
 
     --title: #510d0a;
     // --title: #f3b61f;
-    --hero-bg: #3e5a1d;
-    --social-container: #5B2202;
-    --footer: #3e5a1d;
-    --footer-component: #5B2202;
+
+    // --hero-bg: #3e5a1d;
+    --hero-bg: #f3b61f;
+
+    // --social-container: #5B2202;
+    --social-container: #510d0a;
+    
+    // --footer: #3e5a1d;
+    // --footer: #6da34d;
+    --footer: #f3b61f;
+    // --footer-component: #5B2202;
+    --footer-component: #510d0a;
+    // --footer-component: #f3b61f;
     --footer-text: white;
-    --first: #5B2202;
-    --second: #5B2202;
-    --third: #5B2202;
+
+    --first: #510d0a;
+    // --first: #f3b61f;
+    --second: #510d0a;
+    // --second: #f3b61f;
+    --third: #510d0a;
+    // --third: #f3b61f;
+    
     --first-about: #5B2202;
     --first-about-text-bg: #3e5a1d;
     --second-about: #5B2202;
     --second-about-text-bg: #3e5a1d;
     --third-about: #5B2202;
     --third-about-text-bg: #3e5a1d;
+    
     --text-container: #5B2202;
     --support-text: white;
     --contact: #5B2202;
@@ -49,5 +73,6 @@
     max-width: 100%;
     // overflow-x: hidden;
     overflow: visible;
-    background-color: var(--green);
+    // background-color: var(--green);
+    background-color: var(--yellow);
 }
