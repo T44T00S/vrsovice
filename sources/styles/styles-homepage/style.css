@@ -87,6 +87,7 @@ select {
   --headerlink-hover: #510d0a;
   --header-border: #f3b61f;
   --title: #510d0a;
+  --title-text: white;
   --hero-bg: #f3b61f;
   --social-container: #510d0a;
   --footer: #f3b61f;
@@ -95,8 +96,14 @@ select {
   --footer-text-hover: #6da34d;
   --footer-border: #6da34d;
   --first: #510d0a;
+  --first-gradient-one: #510d0a;
+  --first-gradient-two: #f3b61f;
   --second: #510d0a;
+  --second-gradient-one: #510d0a;
+  --second-gradient-two: #f3b61f;
   --third: #510d0a;
+  --third-gradient-one: #510d0a;
+  --third-gradient-two: #f3b61f;
   --first-about: #510d0a;
   --first-about-text-bg: #6da34d;
   --second-about: #510d0a;
@@ -329,11 +336,17 @@ select {
   justify-content: center;
   background: var(--title);
   border-radius: 25px;
+  transition: transform 0.5s ease;
 }
 .title .title-container .title-text {
   font-size: 4rem;
-  color: var(--white);
+  color: var(--title-text);
   padding: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.title .title-container:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 391px) {

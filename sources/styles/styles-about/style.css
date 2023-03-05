@@ -87,6 +87,7 @@ select {
   --headerlink-hover: #510d0a;
   --header-border: #f3b61f;
   --title: #510d0a;
+  --title-text: white;
   --hero-bg: #f3b61f;
   --social-container: #510d0a;
   --footer: #f3b61f;
@@ -95,8 +96,14 @@ select {
   --footer-text-hover: #6da34d;
   --footer-border: #6da34d;
   --first: #510d0a;
+  --first-gradient-one: #510d0a;
+  --first-gradient-two: #f3b61f;
   --second: #510d0a;
+  --second-gradient-one: #510d0a;
+  --second-gradient-two: #f3b61f;
   --third: #510d0a;
+  --third-gradient-one: #510d0a;
+  --third-gradient-two: #f3b61f;
   --first-about: #510d0a;
   --first-about-text-bg: #6da34d;
   --second-about: #510d0a;
