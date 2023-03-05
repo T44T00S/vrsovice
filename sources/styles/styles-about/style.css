@@ -315,7 +315,7 @@ select {
 .first-section {
   width: 100%;
   height: 40rem;
-  background: var(--first-about);
+  background: linear-gradient(#f3b61f, #510d0a);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -400,7 +400,7 @@ select {
 .second-section {
   width: 100%;
   height: 40rem;
-  background: var(--second-about);
+  background: linear-gradient(#510d0a, #f3b61f);
   display: flex;
   align-items: center;
   justify-content: center;
