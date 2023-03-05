@@ -26,6 +26,10 @@
                 text-align: center;
                 text-decoration: none;
                 border-radius: 50%;
+                transition: transform .5s ease;
+            }
+            .fa:hover {
+                transform: scale(1.2);
             }
             .fa-instagram {
                 background: #d6249f;
@@ -65,6 +69,10 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
+                transition: transform .5s ease;
+            }
+            .footer-section-two-logo:hover {
+                transform: scale(1.2);
             }
             .footer-section-two-copyright {
                 margin-top: 1rem;
@@ -95,8 +103,20 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
+                border: 0;
+                font-weight: bold;
                 .ft-st-two-privacy {
                     color: var(--footer-text);
+                    text-decoration:none;
+                    font-size: 2rem;
+                }
+                .ft-st-two-privacy:hover {
+                    color: var(--footer-text-hover);
+                    transition: 0.2s color ease-in-out;
+                    border: 2px solid var(--green2);
+                    border-radius: 25px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
             .footer-section-three-block:nth-child(2) {
@@ -107,8 +127,20 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
+                border: 0;
+                font-weight: bold;
                 .ft-st-two-cookies {
                     color: var(--footer-text);
+                    text-decoration:none;
+                    font-size: 2rem;
+                }
+                .ft-st-two-cookies:hover {
+                    color: var(--footer-text-hover);
+                    transition: 0.2s color ease-in-out;
+                    border: 2px solid var(--green2);
+                    border-radius: 25px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
             .footer-section-three-block:nth-child(3) {
@@ -119,8 +151,20 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
+                border: 0;
+                font-weight: bold;
                 .ft-st-two-legal {
                     color: var(--footer-text);
+                    text-decoration:none;
+                    font-size: 2rem;
+                }
+                .ft-st-two-legal:hover {
+                    color: var(--footer-text-hover);
+                    transition: 0.2s color ease-in-out;
+                    border: 2px solid var(--green2);
+                    border-radius: 25px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
         }

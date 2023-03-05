@@ -26,6 +26,10 @@
                 text-align: center;
                 text-decoration: none;
                 border-radius: 50%;
+                transition: transform .5s ease;
+            }
+            .fa:hover {
+                transform: scale(1.2);
             }
             .fa-instagram {
                 background: #d6249f;
@@ -53,7 +57,6 @@
         .footer-section:nth-child(2) {
             width: 30%;
             height: 70%;
-            // background-color: var(--black);
             display: flex;
             justify-content: flex-start;
             flex-direction: column;
@@ -66,8 +69,10 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
-                // .footer-section-two-logo-img {
-                // }
+                transition: transform .5s ease;
+            }
+            .footer-section-two-logo:hover {
+                transform: scale(1.2);
             }
             .footer-section-two-copyright {
                 margin-top: 1rem;
@@ -86,7 +91,6 @@
         .footer-section:nth-child(3) {
             width: 30%;
             height: 70%;
-            // background-color: var(--black);
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -99,8 +103,20 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
+                border: 0;
+                font-weight: bold;
                 .ft-st-two-privacy {
                     color: var(--footer-text);
+                    text-decoration:none;
+                    font-size: 2rem;
+                }
+                .ft-st-two-privacy:hover {
+                    color: var(--footer-text-hover);
+                    transition: 0.2s color ease-in-out;
+                    border: 2px solid var(--green2);
+                    border-radius: 25px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
             .footer-section-three-block:nth-child(2) {
@@ -111,8 +127,20 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
+                border: 0;
+                font-weight: bold;
                 .ft-st-two-cookies {
                     color: var(--footer-text);
+                    text-decoration:none;
+                    font-size: 2rem;
+                }
+                .ft-st-two-cookies:hover {
+                    color: var(--footer-text-hover);
+                    transition: 0.2s color ease-in-out;
+                    border: 2px solid var(--green2);
+                    border-radius: 25px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
             .footer-section-three-block:nth-child(3) {
@@ -123,8 +151,20 @@
                 align-items: center;
                 justify-content: center;
                 border-radius: 25px;
+                border: 0;
+                font-weight: bold;
                 .ft-st-two-legal {
                     color: var(--footer-text);
+                    text-decoration:none;
+                    font-size: 2rem;
+                }
+                .ft-st-two-legal:hover {
+                    color: var(--footer-text-hover);
+                    transition: 0.2s color ease-in-out;
+                    border: 2px solid var(--green2);
+                    border-radius: 25px;
+                    padding-left: 10px;
+                    padding-right: 10px;
                 }
             }
         }
@@ -135,7 +175,6 @@
         width: 100%;
         height: 10rem;
         background: var(--footer);
-        // background: var(--black);
         .footer-container {
             gap: 1rem;
             .footer-section:nth-child(1) {
@@ -152,11 +191,9 @@
                     width: 60%;
                     height: 60%;
                     display: flex;
-                    // display: inline-block;
                     align-items: center;
                     justify-content: center;
                     border-radius: 20px;
-                    // background: none;
                     .footer-section-two-logo-img {
                         object-fit: cover;
                         width: 95%;
