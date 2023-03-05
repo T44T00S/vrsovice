@@ -19,10 +19,15 @@
         position: absolute;
         background: var(--text-container);
         border-radius: 25px;
+        transition: transform .5s ease;
         .text {
             color: var(--support-text);
             font-size: 3rem;
         }
+    }
+    .text-container:hover {
+        transform: scale(1.1);
+        // background-color: var(--support-hover);
     }
 }
 @media only screen and (max-width: 391px){

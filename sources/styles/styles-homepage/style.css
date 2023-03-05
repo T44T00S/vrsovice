@@ -87,6 +87,7 @@ select {
   --headerlink-hover: #510d0a;
   --header-border: #f3b61f;
   --title: #510d0a;
+  --title-hover: #f3b61f;
   --title-text: white;
   --hero-bg: #f3b61f;
   --social-container: #510d0a;
@@ -112,6 +113,7 @@ select {
   --third-about-text-bg: #6da34d;
   --text-container: #510d0a;
   --support-text: white;
+  --support-hover: #f3b61f;
   --contact: #510d0a;
   --contact-block: #6da34d;
   --mail-text: white;
@@ -347,7 +349,6 @@ select {
 }
 .title .title-container:hover {
   transform: scale(1.1);
-  background-color: var(--yellow);
 }
 
 @media only screen and (max-width: 391px) {

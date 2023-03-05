@@ -87,6 +87,7 @@ select {
   --headerlink-hover: #510d0a;
   --header-border: #f3b61f;
   --title: #510d0a;
+  --title-hover: #f3b61f;
   --title-text: white;
   --hero-bg: #f3b61f;
   --social-container: #510d0a;
@@ -112,6 +113,7 @@ select {
   --third-about-text-bg: #6da34d;
   --text-container: #510d0a;
   --support-text: white;
+  --support-hover: #f3b61f;
   --contact: #510d0a;
   --contact-block: #6da34d;
   --mail-text: white;
@@ -334,10 +336,14 @@ select {
   position: absolute;
   background: var(--text-container);
   border-radius: 25px;
+  transition: transform 0.5s ease;
 }
 .picture-bg .text-container .text {
   color: var(--support-text);
   font-size: 3rem;
+}
+.picture-bg .text-container:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 391px) {
@@ -369,7 +375,7 @@ select {
 .contact {
   width: 100%;
   height: 40rem;
-  background: var(--contact);
+  background: linear-gradient(#510d0a, #f3b61f);
   display: flex;
   justify-content: center;
   align-items: center;
