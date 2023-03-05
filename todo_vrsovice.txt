@@ -1,12 +1,3 @@
-header - pridat u záložek background color s border-radius 
 v mobilni verzi headeru - u menu border-radius ?
 
-Title - při hover zvětšit o 1.1 + odkaz na O Vršovicích.
-
-U social media icons hover:transform-scale(1.1)?
-
 Nový logo.
-
-Footer - při hover nad text změnit na hnědou
-
-Vyska kostela na homepage? Coufal
