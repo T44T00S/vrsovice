@@ -1,8 +1,8 @@
 .social {
     width: 100%;
     height: 10rem;
-    // background: green;
     margin-bottom: 4rem;
+
     .social-container {
         width: 80%;
         height: 100%;
@@ -13,6 +13,7 @@
         justify-content: center;
         gap: 10rem;
         border-radius: 25px;
+
         .fa {
             font-size: 90px;
             width: 100px;
@@ -22,54 +23,62 @@
             border-radius: 50%;
             transition: transform .5s ease;
         }
+
         .fa:hover {
             transform: scale(1.2);
         }
+
         .fa-instagram {
             background: #d6249f;
-            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-            box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            box-shadow: 0px 3px 10px rgba(0, 0, 0, .25);
             color: white;
         }
+
         .fa-facebook {
             background: #3B5998;
             color: white;
         }
+
         .fa-twitter {
             background: #55ACEE;
             color: white;
         }
+
         .fa-youtube {
             background: red;
             color: white;
         }
+
         .fa-linkedin {
             background: #0e76a8;
             color: white;
         }
     }
 }
-@media only screen and (max-width: 391px){
+
+@media only screen and (max-width: 391px) {
     .social {
         width: 100%;
-        height: 6rem;
-        // background: black;
+        height: 9rem;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 0;
+
         .social-container {
             width: 95%;
-            height: 75%;
-            gap: 1rem;
+            height: 60%;
+            gap: 0.5rem;
             border-radius: 20px;
+
             .fa {
-            font-size: 3rem;
-            width: 5rem;
-            height: 3.5rem;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 50%;
+                font-size: 3rem;
+                width: 4rem;
+                height: 3.5rem;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
             }
         }
     }
