@@ -2,7 +2,6 @@
     width: 100%;
     height: 5rem;
     background-color: var(--header);
-    // background: #3e5a1d;
     border-bottom: 0.3rem solid var(--header-border);
     z-index: 1;
     .header-container {
@@ -43,11 +42,6 @@
                 padding: 5px;
             }
         }
-        // .homepage-button:hover {
-        //     // background-color: #7f1d1d;
-        //     background: #294805;
-        //     cursor:pointer;
-        // }
         .gallery-button {
             height: 100%;
             width: 10%;
@@ -123,10 +117,8 @@
         .header-container {
             width: 98%;
             height: 70%;
-            // background: green;
             display: flex;
             justify-content: space-between;
-            // justify-content: center;
             .logo {
                 height: 100%;
                 width: 20%;
@@ -175,7 +167,6 @@
             }
             .page-menu {
                 height: 100%;
-                // width: 10%;
                 display: block;
                 margin-right: 1rem;
                 background-color: var(--page-menu);

@@ -86,6 +86,7 @@ select {
   --headerlink: #510d0a;
   --headerlink-hover: #510d0a;
   --header-border: #f3b61f;
+  --page-menu: #6da34d;
   --title: #510d0a;
   --title-hover: #f3b61f;
   --title-text: white;
@@ -124,7 +125,6 @@ select {
   --linkedin: white;
   --discord-text: white;
   --discord: white;
-  --page-menu: #3e5a1d;
 }
 
 .app {
