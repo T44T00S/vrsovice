@@ -400,7 +400,7 @@ select {
   transition: transform 0.5s ease;
 }
 .hero .hero-container .hero-pic:nth-child(1) .hero-pic-one:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
 }
 .hero .hero-container .hero-pic:nth-child(2) {
   width: 65%;
@@ -416,7 +416,7 @@ select {
   transition: transform 0.5s ease;
 }
 .hero .hero-container .hero-pic:nth-child(2) .hero-pic-two:hover {
-  transform: scale(1.1);
+  transform: scale(1.07);
 }
 
 @media only screen and (max-width: 391px) {

@@ -29,7 +29,7 @@
                 width: 80%;
                 font-size: 1.1rem;
                 transition: transform .5s ease;
-                padding: 5px;
+                padding: 10px;
             }
             .second-about-text:hover {
                 transform: scale(1.15);
@@ -70,13 +70,27 @@
             .second-about:nth-child(1) {
                 width: 100%;
                 height: 55%;
-                .second-about-text {
-                    width: 90%;
+                .second-about-title {
+                    width: 100%;
+                    padding-left: 50px;
                 }
+                .second-about-text {
+                    width: 100%;
+                }
+                .second-about-text:hover {
+                    transform: scale(1);
+                }
+
             }
             .second-about:nth-child(2) {
                 width: 100%;
                 height: 45%;
+                .second-about-pic {
+                    border-radius: 10px;
+                }
+                .second-about-pic:hover {
+                    transform: scale(1);
+                }
             }
         }
     }
