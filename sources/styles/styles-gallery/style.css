@@ -316,7 +316,7 @@ select {
 }
 .first-section {
   width: 100%;
-  height: 50rem;
+  height: 40rem;
   background: linear-gradient(#f3b61f, #510d0a);
   display: flex;
   justify-content: space-around;
@@ -324,9 +324,10 @@ select {
 }
 .first-section .first-container {
   width: 90%;
-  height: 75%;
+  height: 90%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   gap: 3rem;
 }
 .first-section .first-container .first-half:nth-child(1) {
@@ -339,7 +340,7 @@ select {
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 10px;
   transition: transform 0.5s ease;
 }
 .first-section .first-container .first-half:nth-child(1) .first-half-pic:hover {
@@ -348,7 +349,6 @@ select {
 .first-section .first-container .first-half:nth-child(2) {
   width: 50%;
   height: 80%;
-  margin-top: 10rem;
 }
 .first-section .first-container .first-half:nth-child(2) .first-half-pic {
   -o-object-fit: cover;
@@ -356,7 +356,7 @@ select {
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 10px;
   transition: transform 0.5s ease;
 }
 .first-section .first-container .first-half:nth-child(2) .first-half-pic:hover {
@@ -389,7 +389,7 @@ select {
 }
 .second-section {
   width: 100%;
-  height: 50rem;
+  height: 40rem;
   background: linear-gradient(#510d0a, #f3b61f);
   display: flex;
   justify-content: space-around;
@@ -397,9 +397,10 @@ select {
 }
 .second-section .second-container {
   width: 90%;
-  height: 75%;
+  height: 90%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 3rem;
 }
 .second-section .second-container .second-half:nth-child(1) {
@@ -412,7 +413,7 @@ select {
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 10px;
   transition: transform 0.5s ease;
 }
 .second-section .second-container .second-half:nth-child(1) .second-half-pic:hover {
@@ -421,7 +422,6 @@ select {
 .second-section .second-container .second-half:nth-child(2) {
   width: 50%;
   height: 80%;
-  margin-top: 10rem;
 }
 .second-section .second-container .second-half:nth-child(2) .second-half-pic {
   -o-object-fit: cover;
@@ -429,7 +429,7 @@ select {
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 10px;
   transition: transform 0.5s ease;
 }
 .second-section .second-container .second-half:nth-child(2) .second-half-pic:hover {
@@ -463,7 +463,7 @@ select {
 }
 .third-section {
   width: 100%;
-  height: 50rem;
+  height: 40rem;
   background: linear-gradient(#f3b61f, #510d0a);
   display: flex;
   justify-content: space-around;
@@ -471,9 +471,10 @@ select {
 }
 .third-section .third-container {
   width: 90%;
-  height: 75%;
+  height: 90%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 3rem;
 }
 .third-section .third-container .third-half:nth-child(1) {
@@ -486,7 +487,7 @@ select {
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 10px;
   transition: transform 0.5s ease;
 }
 .third-section .third-container .third-half:nth-child(1) .third-half-pic:hover {
@@ -495,7 +496,6 @@ select {
 .third-section .third-container .third-half:nth-child(2) {
   width: 50%;
   height: 80%;
-  margin-top: 10rem;
 }
 .third-section .third-container .third-half:nth-child(2) .third-half-pic {
   -o-object-fit: cover;
@@ -503,7 +503,7 @@ select {
   display: block;
   width: 100%;
   height: 100%;
-  border-radius: 25px;
+  border-radius: 10px;
   transition: transform 0.5s ease;
 }
 .third-section .third-container .third-half:nth-child(2) .third-half-pic:hover {
