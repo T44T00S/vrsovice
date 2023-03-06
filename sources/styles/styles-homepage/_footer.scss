@@ -202,6 +202,7 @@
                         width: 95%;
                         height: 50%;
                         margin: 0;
+                        padding: 5px;
                     }
                 }
                 .footer-section-two-copyright {
@@ -226,6 +227,17 @@
                 height: 85%;
                 width: 45%;
                 .footer-section-three-block:nth-child(1) {
+                    width: 95%;
+                    border-radius: 20px;
+                    .ft-st-two-privacy {
+                        font-size: 1.5rem;
+                    }
+                }
+                .footer-section-three-block:nth-child(2) {
+                    width: 95%;
+                    border-radius: 20px;
+                }
+                .footer-section-three-block:nth-child(3) {
                     width: 95%;
                     border-radius: 20px;
                 }
