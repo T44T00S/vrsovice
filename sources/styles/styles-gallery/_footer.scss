@@ -173,7 +173,7 @@
 @media only screen and (max-width: 391px){
     .footer {
         width: 100%;
-        height: 10rem;
+        height: 15rem;
         background: var(--footer);
         .footer-container {
             gap: 1rem;
@@ -182,7 +182,7 @@
             }
             .footer-section:nth-child(2) {
                 width: 50%;
-                height: 85%;
+                height: 70%;
                 display: flex;
                 align-items: center;
                 justify-content: center;
@@ -199,14 +199,24 @@
                         width: 95%;
                         height: 50%;
                         margin: 0;
+                        padding: 5px;
                     }
                 }
                 .footer-section-two-copyright {
                     width: 100%;
                     height: 35%;
                     border-radius: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                     .footer-copyright-text {
-                        font-size: 1.08rem;
+                        display: none;
+                    }
+                    .footer-copyright-text-iphone {
+                        display: block;
+                        font-size: 1.2rem;
+                        color: white;
+                        padding: 10px;
                     }
                 }
             }
@@ -214,6 +224,17 @@
                 height: 85%;
                 width: 45%;
                 .footer-section-three-block:nth-child(1) {
+                    width: 95%;
+                    border-radius: 20px;
+                    .ft-st-two-privacy {
+                        font-size: 1.5rem;
+                    }
+                }
+                .footer-section-three-block:nth-child(2) {
+                    width: 95%;
+                    border-radius: 20px;
+                }
+                .footer-section-three-block:nth-child(3) {
                     width: 95%;
                     border-radius: 20px;
                 }

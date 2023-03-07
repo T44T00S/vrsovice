@@ -772,7 +772,7 @@ select {
     display: block;
     font-size: 1.2rem;
     color: white;
-    padding: 5px;
+    padding: 10px;
   }
   .footer .footer-container .footer-section:nth-child(3) {
     height: 85%;
