@@ -372,6 +372,9 @@ select {
     width: 90%;
     font-size: 2rem;
   }
+  .title .title-container:hover {
+    transform: scale(1);
+  }
 }
 .hero {
   width: 100%;

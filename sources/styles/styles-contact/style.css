@@ -371,6 +371,9 @@ select {
     width: 90%;
     font-size: 2rem;
   }
+  .picture-bg .text-container:hover {
+    transform: scale(1);
+  }
 }
 .contact {
   width: 100%;
