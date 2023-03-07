@@ -366,7 +366,7 @@ select {
 @media only screen and (max-width: 391px) {
   .first-section {
     width: 100%;
-    height: 30rem;
+    height: 35rem;
   }
   .first-section .first-container {
     width: 90%;
@@ -381,10 +381,16 @@ select {
     width: 100%;
     height: 50%;
   }
+  .first-section .first-container .first-half:nth-child(1) .first-half-pic:hover {
+    transform: scale(1);
+  }
   .first-section .first-container .first-half:nth-child(2) {
     width: 100%;
     height: 50%;
     margin: 0;
+  }
+  .first-section .first-container .first-half:nth-child(2) .first-half-pic:hover {
+    transform: scale(1);
   }
 }
 .second-section {
@@ -439,7 +445,7 @@ select {
 @media only screen and (max-width: 391px) {
   .second-section {
     width: 100%;
-    height: 30rem;
+    height: 35rem;
     background-color: var(--second);
   }
   .second-section .second-container {
@@ -455,10 +461,16 @@ select {
     width: 100%;
     height: 50%;
   }
+  .second-section .second-container .second-half:nth-child(1) .second-half-pic:hover {
+    transform: scale(1);
+  }
   .second-section .second-container .second-half:nth-child(2) {
     width: 100%;
     height: 50%;
     margin: 0;
+  }
+  .second-section .second-container .second-half:nth-child(2) .second-half-pic:hover {
+    transform: scale(1);
   }
 }
 .third-section {
@@ -513,7 +525,7 @@ select {
 @media only screen and (max-width: 391px) {
   .third-section {
     width: 100%;
-    height: 30rem;
+    height: 35rem;
     background-color: var(--second);
   }
   .third-section .third-container {
@@ -529,10 +541,16 @@ select {
     width: 100%;
     height: 50%;
   }
+  .third-section .third-container .third-half:nth-child(1) .third-half-pic:hover {
+    transform: scale(1);
+  }
   .third-section .third-container .third-half:nth-child(2) {
     width: 100%;
     height: 50%;
     margin: 0;
+  }
+  .third-section .third-container .third-half:nth-child(2) .third-half-pic:hover {
+    transform: scale(1);
   }
 }
 .footer {

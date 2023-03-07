@@ -48,7 +48,7 @@
 @media only screen and (max-width: 391px){
     .second-section {
         width: 100%;
-        height: 30rem;
+        height: 35rem;
         background-color: var(--second);
         .second-container {
             width: 90%;
@@ -61,11 +61,17 @@
             .second-half:nth-child(1) {
                 width: 100%;
                 height: 50%;
+                .second-half-pic:hover {
+                    transform: scale(1);
+                }
             }
             .second-half:nth-child(2) {
                 width: 100%;
                 height: 50%;
                 margin: 0;
+                .second-half-pic:hover {
+                    transform: scale(1);
+                }
             }
         }
     }

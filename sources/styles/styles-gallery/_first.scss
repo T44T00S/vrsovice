@@ -47,7 +47,7 @@
 @media only screen and (max-width: 391px){
     .first-section {
         width: 100%;
-        height: 30rem;
+        height: 35rem;
         .first-container {
             width: 90%;
             height: 90%;
@@ -59,11 +59,17 @@
             .first-half:nth-child(1) {
                 width: 100%;
                 height: 50%;
+                .first-half-pic:hover {
+                    transform: scale(1);
+                }
             }
             .first-half:nth-child(2) {
                 width: 100%;
                 height: 50%;
                 margin: 0;
+                .first-half-pic:hover {
+                    transform: scale(1);
+                }
             }
         }
     }

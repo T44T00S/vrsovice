@@ -48,7 +48,7 @@
 @media only screen and (max-width: 391px){
     .third-section {
         width: 100%;
-        height: 30rem;
+        height: 35rem;
         background-color: var(--second);
         .third-container {
             width: 90%;
@@ -61,11 +61,17 @@
             .third-half:nth-child(1) {
                 width: 100%;
                 height: 50%;
+                .third-half-pic:hover {
+                    transform: scale(1);
+                }
             }
             .third-half:nth-child(2) {
                 width: 100%;
                 height: 50%;
                 margin: 0;
+                .third-half-pic:hover {
+                    transform: scale(1);
+                }
             }
         }
     }
