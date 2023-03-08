@@ -86,6 +86,9 @@
                 .footer-copyright-text {
                     color: var(--footer-text);
                 }
+                .footer-copyright-text-iphone {
+                    display: none;
+                }
             }
         }
         .footer-section:nth-child(3) {

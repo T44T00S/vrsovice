@@ -605,6 +605,9 @@ select {
 .footer .footer-container .footer-section:nth-child(2) .footer-section-two-copyright .footer-copyright-text {
   color: var(--footer-text);
 }
+.footer .footer-container .footer-section:nth-child(2) .footer-section-two-copyright .footer-copyright-text-iphone {
+  display: none;
+}
 .footer .footer-container .footer-section:nth-child(3) {
   width: 30%;
   height: 70%;
