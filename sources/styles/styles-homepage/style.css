@@ -318,7 +318,6 @@ select {
   width: 100%;
   height: 45rem;
   background: var(--title);
-  margin-bottom: 4rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -539,8 +538,26 @@ select {
 }
 .content {
   width: 100%;
-  height: 40rem;
+  height: 50rem;
   background: var(--green2);
+  margin-bottom: 4rem;
+}
+.content .content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.content .content-container .content-text-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content .content-container .content-pic {
+  width: 70%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 391px) {
