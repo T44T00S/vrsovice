@@ -90,6 +90,7 @@ select {
   --title: #510d0a;
   --title-hover: #f3b61f;
   --title-text: white;
+  --content-border: black;
   --hero-bg: #f3b61f;
   --social-container: #510d0a;
   --footer: #f3b61f;
@@ -347,7 +348,7 @@ select {
   font-weight: bold;
 }
 .title .title-container:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
 @media only screen and (max-width: 391px) {
@@ -395,7 +396,7 @@ select {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
+  gap: 3rem;
 }
 .content .content-container .content-text-container .content-title .content-title-text {
   font-size: 2rem;
@@ -403,6 +404,9 @@ select {
 .content .content-container .content-text-container .content-text {
   width: 70%;
   text-align: center;
+  border: 2px solid var(--content-border);
+  border-radius: 20px;
+  padding: 10px;
 }
 .content .content-container .content-pic {
   width: 60%;
@@ -519,11 +523,13 @@ select {
 .stadium {
   width: 100%;
   height: 40rem;
+  margin-bottom: 4rem;
 }
 .stadium .stadium-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: row;
   width: 100%;
   height: 100%;
 }
@@ -534,8 +540,35 @@ select {
   align-items: center;
   justify-content: start;
 }
-.stadium .stadium-container .stadium-image .stadium-image-pic {
-  width: 100%;
+.stadium .stadium-container .stadium-image .stadium-image-link {
+  overflow: hidden;
+}
+.stadium .stadium-container .stadium-image .stadium-image-link .stadium-image-pic {
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 55rem;
+  height: auto;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.stadium .stadium-container .stadium-text-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.stadium .stadium-container .stadium-text-container .stadium-title .stadium-title-text {
+  font-size: 2rem;
+}
+.stadium .stadium-container .stadium-text-container .stadium-text {
+  width: 70%;
+  text-align: center;
+  border: 2px solid var(--content-border);
+  border-radius: 20px;
+  padding: 10px;
 }
 .map {
   width: 100%;
