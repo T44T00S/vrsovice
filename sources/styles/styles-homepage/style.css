@@ -336,7 +336,6 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--title);
   border-radius: 25px;
   transition: transform 0.5s ease;
 }
@@ -376,6 +375,26 @@ select {
     transform: scale(1);
   }
 }
+.info {
+  width: 100%;
+  height: 40rem;
+  background: linear-gradient(#f3b61f, #6da34d);
+}
+.info .info-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.info .info-container .text-collumn:nth-child(1) {
+  height: 100%;
+  width: 50%;
+}
+.info .info-container .text-collumn:nth-child(2) {
+  height: 100%;
+  width: 50%;
+}
+
 .content {
   width: 100%;
   height: 40rem;
@@ -429,16 +448,11 @@ select {
   transform: scale(1.1);
 }
 
-@media only screen and (max-width: 391px) {
-  .content {
-    display: none;
-  }
-}
 .hero {
   width: 100%;
   height: 35rem;
-  background: var(--hero-bg);
-  margin-bottom: 5rem;
+  background: linear-gradient(#f3b61f, #6da34d);
+  padding-bottom: 2rem;
 }
 .hero .hero-container {
   width: 90%;
@@ -524,6 +538,7 @@ select {
   width: 100%;
   height: 40rem;
   margin-bottom: 4rem;
+  background: linear-gradient(#6da34d, #f3b61f);
 }
 .stadium .stadium-container {
   display: flex;
@@ -597,7 +612,8 @@ select {
 .social {
   width: 100%;
   height: 10rem;
-  margin-bottom: 4rem;
+  padding-bottom: 2rem;
+  background: linear-gradient(#f3b61f, #6da34d);
 }
 .social .social-container {
   width: 80%;
@@ -673,6 +689,7 @@ select {
   width: 100%;
   height: 20rem;
   background: var(--footer);
+  background: linear-gradient(#6da34d, #f3b61f);
   border-top: 0.3rem solid var(--footer-border);
 }
 .footer .footer-container {
