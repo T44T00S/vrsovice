@@ -337,7 +337,7 @@ select {
   align-items: center;
   justify-content: center;
   border-radius: 25px;
-  transition: transform 0.5s ease;
+  transition: transform 0.4s ease-in-out;
 }
 .title .title-container .title-text {
   font-size: 4rem;
@@ -345,6 +345,10 @@ select {
   padding: 5px;
   text-decoration: none;
   font-weight: bold;
+}
+.title .title-container .title-text:hover {
+  color: var(--brown2);
+  transition: 0.4s color ease-in-out;
 }
 .title .title-container:hover {
   transform: scale(1.02);
@@ -389,12 +393,25 @@ select {
 .info .info-container .text-collumn:nth-child(1) {
   height: 100%;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(1) {
+  width: 70%;
+}
+.info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(1) .text-collumn-left-p {
+  font-size: 1.1rem;
 }
 .info .info-container .text-collumn:nth-child(2) {
   height: 100%;
   width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
-
 .content {
   width: 100%;
   height: 40rem;
@@ -588,7 +605,8 @@ select {
 .map {
   width: 100%;
   height: 40rem;
-  margin-bottom: 5rem;
+  padding-bottom: 3rem;
+  background: linear-gradient(#f3b61f, #6da34d);
 }
 .map .map-container {
   display: flex;
@@ -612,8 +630,8 @@ select {
 .social {
   width: 100%;
   height: 10rem;
+  margin-bottom: 2rem;
   padding-bottom: 2rem;
-  background: linear-gradient(#f3b61f, #6da34d);
 }
 .social .social-container {
   width: 80%;
