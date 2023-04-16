@@ -16,15 +16,27 @@
             justify-content: space-evenly;
             .text-collumn-left:nth-child(1) {
                 width: 70%;
+                text-align: center;
+                padding-top: 2rem;
                 .text-collumn-left-p {
                     font-size: 1.1rem;
                 }
             }
             .text-collumn-left:nth-child(2) {
-                
+                width: 70%;
+                text-align: center;
+                padding-top: 2rem;
+                .text-collumn-left-p {
+                    font-size: 1.1rem;
+                }
             }
             .text-collumn-left:nth-child(3) {
-                
+                width: 70%;
+                text-align: center;
+                padding-top: 2rem;
+                .text-collumn-left-p {
+                    font-size: 1.1rem;
+                }
             }
         }
         .text-collumn:nth-child(2) {
@@ -35,13 +47,27 @@
             align-items: center;
             justify-content: space-around;
             .text-collumn-right:nth-child(1) {
-
+                width: 70%;
+                text-align: center;
+                .text-collumn-right-p {
+                    font-size: 1.1rem;
+                }
             }
             .text-collumn-right:nth-child(2) {
-                
+                width: 70%;
+                text-align: center;
+                padding-bottom: 4rem;
+                .text-collumn-right-p {
+                    font-size: 1.1rem;
+                }
             }
             .text-collumn-right:nth-child(3) {
-                
+                width: 70%;
+                text-align: center;
+                padding-bottom: 5rem;
+                .text-collumn-right-p {
+                    font-size: 1.1rem;
+                }
             }
         }
     }

@@ -347,7 +347,6 @@ select {
   font-weight: bold;
 }
 .title .title-container .title-text:hover {
-  color: var(--brown2);
   transition: 0.4s color ease-in-out;
 }
 .title .title-container:hover {
@@ -400,8 +399,26 @@ select {
 }
 .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(1) {
   width: 70%;
+  text-align: center;
+  padding-top: 2rem;
 }
 .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(1) .text-collumn-left-p {
+  font-size: 1.1rem;
+}
+.info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(2) {
+  width: 70%;
+  text-align: center;
+  padding-top: 2rem;
+}
+.info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(2) .text-collumn-left-p {
+  font-size: 1.1rem;
+}
+.info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(3) {
+  width: 70%;
+  text-align: center;
+  padding-top: 2rem;
+}
+.info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(3) .text-collumn-left-p {
   font-size: 1.1rem;
 }
 .info .info-container .text-collumn:nth-child(2) {
@@ -412,6 +429,30 @@ select {
   align-items: center;
   justify-content: space-around;
 }
+.info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(1) {
+  width: 70%;
+  text-align: center;
+}
+.info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(1) .text-collumn-right-p {
+  font-size: 1.1rem;
+}
+.info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(2) {
+  width: 70%;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+.info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(2) .text-collumn-right-p {
+  font-size: 1.1rem;
+}
+.info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(3) {
+  width: 70%;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+.info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(3) .text-collumn-right-p {
+  font-size: 1.1rem;
+}
+
 .content {
   width: 100%;
   height: 40rem;
