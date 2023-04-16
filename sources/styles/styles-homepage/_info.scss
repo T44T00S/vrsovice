@@ -72,3 +72,65 @@
         }
     }
 }
+@media only screen and (max-width: 391px){
+.info {
+    .info-container {
+        .text-collumn:nth-child(1) {
+            justify-content: space-evenly;
+            .text-collumn-left:nth-child(1) {
+                width: 100%;
+                padding-top: 0;
+                // text-align: ;
+                .text-collumn-left-p {
+                    font-size: 1rem;
+                    padding-left: 0.5rem;
+                }
+            }
+            .text-collumn-left:nth-child(2) {
+                width: 100%;
+                padding-top: 0;
+                // text-align: ;
+                .text-collumn-left-p {
+                    font-size: 1rem;
+                    padding-left: 0.5rem;
+                }
+            }
+            .text-collumn-left:nth-child(3) {
+                width: 100%;
+                padding-top: 0;
+                // text-align: ;
+                .text-collumn-left-p {
+                    font-size: 1rem;
+                    padding-left: 0.5rem;
+                }
+            }
+        }
+        .text-collumn:nth-child(2) {
+            justify-content: space-evenly;
+            .text-collumn-right:nth-child(1) {
+                justify-self: unset;
+                .text-collumn-right-p {
+                    font-size: 1rem;
+                    // padding-left: 0.5rem;
+                }
+            }
+            .text-collumn-right:nth-child(2) {
+                justify-self: unset;
+                padding-bottom: 0;
+                .text-collumn-right-p {
+                    font-size: 1rem;
+                    // padding-left: 0.5rem;
+                }
+            }
+            .text-collumn-right:nth-child(3) {
+                justify-self: unset;
+                padding-bottom: 0;
+                .text-collumn-right-p {
+                    font-size: 1rem;
+                    // padding-left: 0.5rem;
+                }
+            }
+        }
+    }
+}
+}
