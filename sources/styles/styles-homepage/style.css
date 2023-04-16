@@ -403,7 +403,8 @@ select {
   padding-top: 2rem;
 }
 .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(1) .text-collumn-left-p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(2) {
   width: 70%;
@@ -411,7 +412,8 @@ select {
   padding-top: 2rem;
 }
 .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(2) .text-collumn-left-p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(3) {
   width: 70%;
@@ -419,7 +421,8 @@ select {
   padding-top: 2rem;
 }
 .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(3) .text-collumn-left-p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .info .info-container .text-collumn:nth-child(2) {
   height: 100%;
@@ -434,7 +437,8 @@ select {
   text-align: center;
 }
 .info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(1) .text-collumn-right-p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(2) {
   width: 70%;
@@ -442,7 +446,8 @@ select {
   padding-bottom: 4rem;
 }
 .info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(2) .text-collumn-right-p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 .info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(3) {
   width: 70%;
@@ -450,7 +455,8 @@ select {
   padding-bottom: 5rem;
 }
 .info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(3) .text-collumn-right-p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 @media only screen and (max-width: 391px) {
@@ -462,24 +468,27 @@ select {
     padding-top: 0;
   }
   .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(1) .text-collumn-left-p {
-    font-size: 1rem;
+    font-size: 1.05rem;
     padding-left: 0.5rem;
+    font-weight: 400;
   }
   .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(2) {
     width: 100%;
     padding-top: 0;
   }
   .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(2) .text-collumn-left-p {
-    font-size: 1rem;
+    font-size: 1.05rem;
     padding-left: 0.5rem;
+    font-weight: 400;
   }
   .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(3) {
     width: 100%;
     padding-top: 0;
   }
   .info .info-container .text-collumn:nth-child(1) .text-collumn-left:nth-child(3) .text-collumn-left-p {
-    font-size: 1rem;
+    font-size: 1.05rem;
     padding-left: 0.5rem;
+    font-weight: 400;
   }
   .info .info-container .text-collumn:nth-child(2) {
     justify-content: space-evenly;
@@ -488,21 +497,24 @@ select {
     justify-self: unset;
   }
   .info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(1) .text-collumn-right-p {
-    font-size: 1rem;
+    font-size: 1.05rem;
+    font-weight: 400;
   }
   .info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(2) {
     justify-self: unset;
     padding-bottom: 0;
   }
   .info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(2) .text-collumn-right-p {
-    font-size: 1rem;
+    font-size: 1.05rem;
+    font-weight: 400;
   }
   .info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(3) {
     justify-self: unset;
     padding-bottom: 0;
   }
   .info .info-container .text-collumn:nth-child(2) .text-collumn-right:nth-child(3) .text-collumn-right-p {
-    font-size: 1rem;
+    font-size: 1.05rem;
+    font-weight: 400;
   }
 }
 .content {
@@ -537,6 +549,9 @@ select {
   border-radius: 20px;
   padding: 10px;
 }
+.content .content-container .content-text-container .content-text .content-text-text {
+  font-size: 1.5;
+}
 .content .content-container .content-pic {
   width: 60%;
   height: 100%;
@@ -561,7 +576,6 @@ select {
 @media only screen and (max-width: 391px) {
   .content {
     margin-bottom: 1rem;
-    margin-top: 3rem;
   }
   .content .content-container {
     flex-direction: column-reverse;
@@ -574,10 +588,23 @@ select {
   .content .content-container .content-text-container .content-title .content-title-text {
     font-size: 1.65rem;
   }
+  .content .content-container .content-text-container .content-text {
+    width: 90%;
+  }
+  .content .content-container .content-text-container .content-text .content-text-text {
+    font-size: 1.1rem;
+  }
   .content .content-container .content-pic {
     width: 100%;
+    height: 100%;
+  }
+  .content .content-container .content-pic .picture-link {
+    width: 100%;
+    height: 100%;
   }
   .content .content-container .content-pic .picture-link .content-picture {
+    width: 100%;
+    height: 100%;
     border-radius: 0;
   }
 }
@@ -718,6 +745,38 @@ select {
   border-radius: 20px;
   padding: 10px;
 }
+@media only screen and (max-width: 391px) {
+  .stadium .stadium-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .stadium .stadium-container .stadium-image {
+    width: 100%;
+    height: 100%;
+  }
+  .stadium .stadium-container .stadium-image .stadium-image-link {
+    width: 100%;
+    height: 100%;
+  }
+  .stadium .stadium-container .stadium-image .stadium-image-link .stadium-image-pic {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  .stadium .stadium-container .stadium-text-container {
+    width: 90%;
+    gap: 1rem;
+  }
+  .stadium .stadium-container .stadium-text-container .stadium-title {
+    text-align: center;
+  }
+  .stadium .stadium-container .stadium-text-container .stadium-title .stadium-title-text {
+    font-size: 1.65;
+  }
+  .stadium .stadium-container .stadium-text-container .stadium-text {
+    width: 90%;
+  }
+}
 .map {
   width: 100%;
   height: 40rem;
@@ -743,6 +802,19 @@ select {
   border-radius: 15px;
 }
 
+@media only screen and (max-width: 391px) {
+  .map {
+    height: 25rem;
+  }
+  .map .map-container .map-div {
+    width: 100%;
+  }
+  .map .map-container .map-div .map-img {
+    border-radius: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
 .social {
   width: 100%;
   height: 10rem;

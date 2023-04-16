@@ -22,3 +22,17 @@
         }
     }
 }
+@media only screen and (max-width: 391px) {
+    .map {
+        height: 25rem;
+        .map-container {
+            .map-div {
+                width: 100%;
+                .map-img {
+                    border-radius: 0;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}

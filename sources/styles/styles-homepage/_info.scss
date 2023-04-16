@@ -19,7 +19,8 @@
                 text-align: center;
                 padding-top: 2rem;
                 .text-collumn-left-p {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
+                    font-weight: 600;
                 }
             }
             .text-collumn-left:nth-child(2) {
@@ -27,7 +28,8 @@
                 text-align: center;
                 padding-top: 2rem;
                 .text-collumn-left-p {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
+                    font-weight: 600;
                 }
             }
             .text-collumn-left:nth-child(3) {
@@ -35,7 +37,8 @@
                 text-align: center;
                 padding-top: 2rem;
                 .text-collumn-left-p {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
+                    font-weight: 600;
                 }
             }
         }
@@ -50,7 +53,8 @@
                 width: 70%;
                 text-align: center;
                 .text-collumn-right-p {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
+                    font-weight: 600;
                 }
             }
             .text-collumn-right:nth-child(2) {
@@ -58,7 +62,8 @@
                 text-align: center;
                 padding-bottom: 4rem;
                 .text-collumn-right-p {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
+                    font-weight: 600;
                 }
             }
             .text-collumn-right:nth-child(3) {
@@ -66,13 +71,14 @@
                 text-align: center;
                 padding-bottom: 5rem;
                 .text-collumn-right-p {
-                    font-size: 1.1rem;
+                    font-size: 1.3rem;
+                    font-weight: 600;
                 }
             }
         }
     }
 }
-@media only screen and (max-width: 391px){
+@media only screen and (max-width: 391px) {
 .info {
     .info-container {
         .text-collumn:nth-child(1) {
@@ -82,8 +88,9 @@
                 padding-top: 0;
                 // text-align: ;
                 .text-collumn-left-p {
-                    font-size: 1rem;
+                    font-size: 1.05rem;
                     padding-left: 0.5rem;
+                    font-weight: 400;
                 }
             }
             .text-collumn-left:nth-child(2) {
@@ -91,8 +98,9 @@
                 padding-top: 0;
                 // text-align: ;
                 .text-collumn-left-p {
-                    font-size: 1rem;
+                    font-size: 1.05rem;                    
                     padding-left: 0.5rem;
+                    font-weight: 400;
                 }
             }
             .text-collumn-left:nth-child(3) {
@@ -100,8 +108,9 @@
                 padding-top: 0;
                 // text-align: ;
                 .text-collumn-left-p {
-                    font-size: 1rem;
+                    font-size: 1.05rem;
                     padding-left: 0.5rem;
+                    font-weight: 400;
                 }
             }
         }
@@ -110,24 +119,27 @@
             .text-collumn-right:nth-child(1) {
                 justify-self: unset;
                 .text-collumn-right-p {
-                    font-size: 1rem;
+                    font-size: 1.05rem;
                     // padding-left: 0.5rem;
+                    font-weight: 400;
                 }
             }
             .text-collumn-right:nth-child(2) {
                 justify-self: unset;
                 padding-bottom: 0;
                 .text-collumn-right-p {
-                    font-size: 1rem;
+                    font-size: 1.05rem;
                     // padding-left: 0.5rem;
+                    font-weight: 400;
                 }
             }
             .text-collumn-right:nth-child(3) {
                 justify-self: unset;
                 padding-bottom: 0;
                 .text-collumn-right-p {
-                    font-size: 1rem;
+                    font-size: 1.05rem;
                     // padding-left: 0.5rem;
+                    font-weight: 400;
                 }
             }
         }
